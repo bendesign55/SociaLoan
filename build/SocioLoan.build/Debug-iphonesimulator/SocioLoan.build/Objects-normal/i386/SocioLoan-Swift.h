@@ -97,13 +97,21 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UIButton;
+@class UITextField;
+@class UITextView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9SocioLoan24AddProjectViewController")
 @interface AddProjectViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameTextField;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified descriptionTextView;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified amountTextField;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)addressbookInvite:(UIButton * _Nonnull)sender;
+- (IBAction)facebookInvite:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -128,7 +136,6 @@ SWIFT_CLASS("_TtC9SocioLoan11AppDelegate")
 
 @class UIImageView;
 @class UILabel;
-@class UIButton;
 
 SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
 @interface ExploreTableViewCell : UITableViewCell

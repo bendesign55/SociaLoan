@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+
 
 class ExploreTableViewController: UITableViewController {
+
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -28,6 +31,19 @@ class ExploreTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
+        var s = FBSDKGraphRequest(graphPath: "me/friends", parameters: ["fields": "data"], HTTPMethod: "GET")
+        
+        var connection = FBSDKGraphRequestConnection()
+        
+        s.startWithCompletionHandler({ connection, result, error in
+            if error != nil {
+                print(error)
+                return
+            }
+            
+            print(result)
+        })
         // Do any additional setup after loading the view.
     }
     
