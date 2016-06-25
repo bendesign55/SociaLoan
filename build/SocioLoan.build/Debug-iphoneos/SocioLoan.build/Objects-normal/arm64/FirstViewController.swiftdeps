@@ -6,11 +6,11 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan19FirstViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
 - "FirstViewController"
+- "UIViewController"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - ["Ps9AnyObject", "init"]
