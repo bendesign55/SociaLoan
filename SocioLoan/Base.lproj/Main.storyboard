@@ -148,29 +148,43 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="86"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zap-oQ-lEc" id="36U-uE-AF3">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="85.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="85"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wRL-fq-E2z">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wRL-fq-E2z">
                                             <rect key="frame" x="8" y="8" width="70" height="70"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="70" id="zBC-zP-EgL"/>
+                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AE5-f1-QIC">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AE5-f1-QIC">
                                             <rect key="frame" x="96" y="8" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-2b-nQ2">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-2b-nQ2">
                                             <rect key="frame" x="96" y="56" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xo4-08-u6Y">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xo4-08-u6Y">
                                             <rect key="frame" x="546" y="28" width="46" height="30"/>
                                             <state key="normal" title="Button"/>
                                         </button>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="AE5-f1-QIC" firstAttribute="leading" secondItem="wRL-fq-E2z" secondAttribute="trailing" constant="18" id="3W1-PH-Nqj"/>
+                                        <constraint firstItem="Xo4-08-u6Y" firstAttribute="trailing" secondItem="36U-uE-AF3" secondAttribute="trailingMargin" id="BUZ-dD-6Hi"/>
+                                        <constraint firstItem="wRL-fq-E2z" firstAttribute="leading" secondItem="36U-uE-AF3" secondAttribute="leadingMargin" id="GMk-Ik-dwm"/>
+                                        <constraint firstItem="wRL-fq-E2z" firstAttribute="top" secondItem="AE5-f1-QIC" secondAttribute="top" id="Jk0-ed-R9i"/>
+                                        <constraint firstItem="AE5-f1-QIC" firstAttribute="leading" secondItem="zX4-2b-nQ2" secondAttribute="leading" id="MSE-VO-CA5"/>
+                                        <constraint firstItem="zX4-2b-nQ2" firstAttribute="bottom" secondItem="36U-uE-AF3" secondAttribute="bottomMargin" id="egq-1q-d4J"/>
+                                        <constraint firstItem="wRL-fq-E2z" firstAttribute="top" secondItem="36U-uE-AF3" secondAttribute="topMargin" id="hkt-lU-7XS"/>
+                                        <constraint firstItem="wRL-fq-E2z" firstAttribute="centerY" secondItem="Xo4-08-u6Y" secondAttribute="centerY" id="lm9-y2-XtJ"/>
+                                        <constraint firstItem="wRL-fq-E2z" firstAttribute="centerY" secondItem="36U-uE-AF3" secondAttribute="centerY" id="qnY-IA-JQj"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="amount" destination="Xo4-08-u6Y" id="Q5I-Rj-XrH"/>
