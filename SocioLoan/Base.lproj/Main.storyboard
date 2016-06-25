@@ -80,7 +80,7 @@
             </objects>
             <point key="canvasLocation" x="1562" y="-320"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Explore Other Projects-->
         <scene sceneID="EYX-VC-6RS">
             <objects>
                 <tableViewController id="7yO-Cv-eNv" sceneMemberID="viewController">
@@ -89,7 +89,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="Zap-oQ-lEc">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="Zap-oQ-lEc" customClass="ExploreTableViewCell" customModule="SocioLoan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="86"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zap-oQ-lEc" id="36U-uE-AF3">
@@ -117,6 +117,12 @@
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="amount" destination="Xo4-08-u6Y" id="Q5I-Rj-XrH"/>
+                                    <outlet property="nameOfPerson" destination="AE5-f1-QIC" id="JMy-Wo-G8o"/>
+                                    <outlet property="nameOfProject" destination="zX4-2b-nQ2" id="pCD-2A-U9h"/>
+                                    <outlet property="profileImage" destination="wRL-fq-E2z" id="3TA-ug-f5e"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -124,7 +130,7 @@
                             <outlet property="delegate" destination="7yO-Cv-eNv" id="xt6-nU-bPN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="4C9-EG-om2"/>
+                    <navigationItem key="navigationItem" title="Explore Other Projects" id="4C9-EG-om2"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFN-j4-Kzo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
