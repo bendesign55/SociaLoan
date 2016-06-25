@@ -83,13 +83,13 @@
         <!--Explore Other Projects-->
         <scene sceneID="EYX-VC-6RS">
             <objects>
-                <tableViewController id="7yO-Cv-eNv" sceneMemberID="viewController">
+                <tableViewController id="7yO-Cv-eNv" customClass="ExploreTableViewController" customModule="SocioLoan" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="86" sectionHeaderHeight="28" sectionFooterHeight="28" id="PQ3-CQ-zLq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="Zap-oQ-lEc" customClass="ExploreTableViewCell" customModule="SocioLoan" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExploreRowID" rowHeight="86" id="Zap-oQ-lEc" customClass="ExploreTableViewCell" customModule="SocioLoan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="86"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zap-oQ-lEc" id="36U-uE-AF3">
