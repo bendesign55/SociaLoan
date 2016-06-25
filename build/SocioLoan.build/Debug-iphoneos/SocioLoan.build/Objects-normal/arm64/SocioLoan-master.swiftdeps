@@ -1,8 +1,9 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "cd9cd09cc8ee9dde45694395cc30c8aa"
-build_time: [520178408, 996524000]
+build_time: [520181261, 932602000]
 inputs:
   "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ExploreViewController.swift": [520178340, 0]
   "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ProfileViewController.swift": [520178374, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/AppDelegate.swift": [520178105, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/AppDelegate.swift": [520181261, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/LoginViewController.swift": [9223372036854775807, 0]
   "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/AddProjectViewController.swift": [520178408, 0]

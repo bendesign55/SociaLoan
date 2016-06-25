@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hf3-iL-6Th">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -85,6 +85,27 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
+        <!--Login View Controller-->
+        <scene sceneID="EsK-WP-6kD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L4D-yT-cSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Hf3-iL-6Th" customClass="LoginViewController" customModule="SocioLoan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6rg-tM-5OH"/>
+                        <viewControllerLayoutGuide type="bottom" id="uR6-w8-0N5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5KU-Ks-1Lb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="presentation" identifier="loginID" id="2Ou-uo-Jzh"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-755" y="0.0"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -116,7 +137,20 @@
                     <view key="view" contentMode="scaleToFill" id="Oph-fZ-khN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soh-Ec-AXH">
+                                <rect key="frame" x="277" y="405" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="logoutFromFacebook:" destination="t7m-4b-G2w" eventType="touchUpInside" id="xWy-X9-s9F"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="soh-Ec-AXH" firstAttribute="centerX" secondItem="Oph-fZ-khN" secondAttribute="centerX" id="TM0-3a-XwZ"/>
+                            <constraint firstItem="yXj-xa-d82" firstAttribute="top" secondItem="soh-Ec-AXH" secondAttribute="bottom" constant="116" id="qBE-A3-j7z"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="GgP-45-Jby"/>
                 </viewController>

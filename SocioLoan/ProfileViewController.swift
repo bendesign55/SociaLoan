@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class ProfileViewController: UIViewController {
 
@@ -20,6 +21,16 @@ class ProfileViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func logoutFromFacebook(sender: UIButton) {
+        
+        var loginManager = FBSDKLoginManager()
+        loginManager.logOut()
+        
+        self.navigationController?.popViewControllerAnimated(true)
+        
+        //UIViewController *prevVC = [self.navigationController.viewControllers objectAtIndex:<n>];
+        //[self.navigationController popToViewController:prevVC animated:YES];
+    }
 
 }
 

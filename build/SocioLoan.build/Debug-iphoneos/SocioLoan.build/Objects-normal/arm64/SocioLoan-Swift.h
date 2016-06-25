@@ -136,6 +136,15 @@ SWIFT_CLASS("_TtC9SocioLoan21ExploreViewController")
 @end
 
 
+SWIFT_CLASS("_TtC9SocioLoan19LoginViewController")
+@interface LoginViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC9SocioLoan21ProfileViewController")
 @interface ProfileViewController : UIViewController
 - (void)viewDidLoad;
