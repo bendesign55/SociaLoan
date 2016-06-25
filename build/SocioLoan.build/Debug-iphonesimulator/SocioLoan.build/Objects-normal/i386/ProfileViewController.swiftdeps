@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan21ProfileViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
 - "logoutFromFacebook"
+- "viewDidLoad"
 depends-top-level:
-- "UIViewController"
 - "UIButton"
-- !private "FBSDKLoginManager"
 - "ProfileViewController"
 - !private "BooleanLiteralType"
+- "UIViewController"
+- !private "FBSDKLoginManager"
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKLoginManager"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]

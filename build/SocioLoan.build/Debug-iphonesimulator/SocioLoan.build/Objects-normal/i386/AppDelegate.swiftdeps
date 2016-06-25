@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
-- "applicationWillTerminate"
-- "application"
-- "application"
 - "window"
-- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
 - "applicationWillResignActive"
+- "applicationWillTerminate"
+- "applicationDidBecomeActive"
+- "application"
+- "application"
+- "applicationWillEnterForeground"
 depends-top-level:
-- !private "FBSDKApplicationDelegate"
-- "NSObject"
-- "Bool"
-- "String"
-- "AnyObject"
-- "NSURL"
-- !private "BooleanLiteralType"
-- "UIResponder"
-- "UIWindow"
-- "UIApplication"
 - "UIApplicationDelegate"
+- "UIResponder"
+- "UIApplication"
 - "AppDelegate"
+- !private "BooleanLiteralType"
+- "UIWindow"
+- "NSObject"
+- "AnyObject"
+- "String"
+- "NSURL"
+- "Bool"
+- !private "FBSDKApplicationDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKApplicationDelegate"]
 - ["Ps9AnyObject", "application"]

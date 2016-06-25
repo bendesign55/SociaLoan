@@ -7,16 +7,16 @@ provides-member:
 - ["C9SocioLoan19LoginViewController", ""]
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
-- "viewDidLoad"
 - "viewDidAppear"
+- "viewDidLoad"
 depends-top-level:
-- "LoginViewController"
-- !private "FBSDKLoginButton"
-- !private "!="
-- "UIViewController"
-- "Bool"
-- !private "FBSDKAccessToken"
 - !private "StringLiteralType"
+- "LoginViewController"
+- !private "FBSDKAccessToken"
+- "Bool"
+- !private "FBSDKLoginButton"
+- "UIViewController"
+- !private "!="
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKAccessToken"]
 - !private ["Ps9AnyObject", "FBSDKLoginButton"]
