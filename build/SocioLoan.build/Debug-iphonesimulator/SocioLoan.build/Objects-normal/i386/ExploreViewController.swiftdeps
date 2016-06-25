@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan26ExploreTableViewController", ""]
 provides-dynamic-lookup:
-- "tableView"
-- "tableView"
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 - "numberOfSectionsInTableView"
+- "tableView"
+- "tableView"
 depends-top-level:
 - !private "StringLiteralType"
-- !private "ExploreTableViewCell"
-- "Int"
 - "UITableViewCell"
-- "UITableView"
 - "UITableViewController"
+- !private "ExploreTableViewCell"
 - "ExploreTableViewController"
 - "NSIndexPath"
+- "Int"
+- "UITableView"
 depends-member:
 - !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]

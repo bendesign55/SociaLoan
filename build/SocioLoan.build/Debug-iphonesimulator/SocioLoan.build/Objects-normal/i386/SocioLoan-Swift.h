@@ -128,13 +128,14 @@ SWIFT_CLASS("_TtC9SocioLoan11AppDelegate")
 
 @class UIImageView;
 @class UILabel;
+@class UIButton;
 
 SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
 @interface ExploreTableViewCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Amount;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfProject;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfPerson;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfProject;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified amount;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
@@ -166,7 +167,6 @@ SWIFT_CLASS("_TtC9SocioLoan19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 
 SWIFT_CLASS("_TtC9SocioLoan21ProfileViewController")
 @interface ProfileViewController : UIViewController
