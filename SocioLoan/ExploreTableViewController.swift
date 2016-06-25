@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+
 
 class ExploreTableViewController: UITableViewController {
+
     
     // For more complex open graph stories, use `FBSDKShareAPI`
     // with `FBSDKShareOpenGraphContent`
@@ -41,6 +44,19 @@ class ExploreTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
+        let s = FBSDKGraphRequest(graphPath: "me/friends", parameters: ["fields": "data"], HTTPMethod: "GET")
+        
+        _ = FBSDKGraphRequestConnection()
+        
+        s.startWithCompletionHandler({ connection, result, error in
+            if error != nil {
+                print(error)
+                return
+            }
+            
+            print(result)
+        })
         // Do any additional setup after loading the view.
     }
     
