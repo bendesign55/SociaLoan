@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan20ExploreTableViewCell", ""]
 provides-dynamic-lookup:
-- "profileImage"
 - "nameOfProject"
-- "awakeFromNib"
 - "nameOfPerson"
+- "profileImage"
+- "awakeFromNib"
 - "setSelected"
 - "amount"
 depends-top-level:
-- "UITableViewCell"
 - "Bool"
+- "UIImageView"
+- "UILabel"
 - "UIButton"
 - "ExploreTableViewCell"
-- "UILabel"
-- "UIImageView"
+- "UITableViewCell"
 depends-member:
 - ["Ps9AnyObject", "amount"]
 - ["Ps9AnyObject", "awakeFromNib"]

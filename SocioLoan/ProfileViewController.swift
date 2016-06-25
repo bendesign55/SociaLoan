@@ -23,7 +23,7 @@ class ProfileViewController: UIViewController {
 
     @IBAction func logoutFromFacebook(sender: UIButton) {
         
-        var loginManager = FBSDKLoginManager()
+        let loginManager = FBSDKLoginManager()
         loginManager.logOut()
         
         self.navigationController?.popViewControllerAnimated(true)

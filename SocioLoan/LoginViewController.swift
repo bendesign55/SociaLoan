@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var loginButton: FBSDKLoginButton = {
+        let loginButton: FBSDKLoginButton = {
             let button = FBSDKLoginButton()
             button.readPermissions = ["user_friends", "user_photos"]
             return button

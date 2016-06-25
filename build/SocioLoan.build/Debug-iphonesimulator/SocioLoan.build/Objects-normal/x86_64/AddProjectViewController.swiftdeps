@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan24AddProjectViewController", ""]
 provides-dynamic-lookup:
+- "addressbookInvite"
+- "descriptionTextView"
 - "facebookInvite"
 - "nameTextField"
 - "viewDidLoad"
-- "descriptionTextView"
-- "addressbookInvite"
 - "amountTextField"
 - "didReceiveMemoryWarning"
 depends-top-level:
+- "UITextView"
+- "AddProjectViewController"
+- "UITextField"
 - "UIButton"
 - "UIViewController"
-- "UITextView"
-- "UITextField"
-- "AddProjectViewController"
 depends-member:
 - ["C9SocioLoan24AddProjectViewController", "UIButton"]
 - ["C9SocioLoan24AddProjectViewController", "UITextField"]
