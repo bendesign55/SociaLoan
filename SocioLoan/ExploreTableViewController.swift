@@ -10,6 +10,19 @@ import UIKit
 
 class ExploreTableViewController: UITableViewController {
     
+    // For more complex open graph stories, use `FBSDKShareAPI`
+    // with `FBSDKShareOpenGraphContent`
+    /* make the API call */
+//    var request = FBSDKGraphRequest()
+//    initWithGraphPath:@"/{friend-list-id}"
+//    parameters:params
+//    HTTPMethod:@"GET"];
+//    [request startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection,
+//    id result,
+//    NSError *error) {
+//    // Handle the result
+//    }];
+    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
