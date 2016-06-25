@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A8AE7F2D1D1E95C800497E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F2C1D1E95C800497E52 /* AppDelegate.swift */; };
-		A8AE7F2F1D1E95C800497E52 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F2E1D1E95C800497E52 /* FirstViewController.swift */; };
-		A8AE7F311D1E95C800497E52 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F301D1E95C800497E52 /* SecondViewController.swift */; };
+		A8AE7F2F1D1E95C800497E52 /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F2E1D1E95C800497E52 /* AddProjectViewController.swift */; };
+		A8AE7F311D1E95C800497E52 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F301D1E95C800497E52 /* ProfileViewController.swift */; };
 		A8AE7F341D1E95C800497E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE7F321D1E95C800497E52 /* Main.storyboard */; };
 		A8AE7F361D1E95C800497E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AE7F351D1E95C800497E52 /* Assets.xcassets */; };
 		A8AE7F391D1E95C800497E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE7F371D1E95C800497E52 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,7 @@
 		A8FD10FB1D1EADF7005760F4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD10F81D1EADF7005760F4 /* FBSDKCoreKit.framework */; };
 		A8FD10FC1D1EADF7005760F4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD10F91D1EADF7005760F4 /* FBSDKLoginKit.framework */; };
 		A8FD10FD1D1EADF7005760F4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD10FA1D1EADF7005760F4 /* FBSDKShareKit.framework */; };
+		A8FD10FF1D1EC5A4005760F4 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD10FE1D1EC5A4005760F4 /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,8 @@
 /* Begin PBXFileReference section */
 		A8AE7F291D1E95C800497E52 /* SocioLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocioLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AE7F2C1D1E95C800497E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8AE7F2E1D1E95C800497E52 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A8AE7F301D1E95C800497E52 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A8AE7F2E1D1E95C800497E52 /* AddProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectViewController.swift; sourceTree = "<group>"; };
+		A8AE7F301D1E95C800497E52 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A8AE7F331D1E95C800497E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8AE7F351D1E95C800497E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8AE7F381D1E95C800497E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		A8FD10F81D1EADF7005760F4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		A8FD10F91D1EADF7005760F4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		A8FD10FA1D1EADF7005760F4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		A8FD10FE1D1EC5A4005760F4 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				A8AE7F2C1D1E95C800497E52 /* AppDelegate.swift */,
-				A8AE7F2E1D1E95C800497E52 /* FirstViewController.swift */,
-				A8AE7F301D1E95C800497E52 /* SecondViewController.swift */,
+				A8AE7F2E1D1E95C800497E52 /* AddProjectViewController.swift */,
+				A8AE7F301D1E95C800497E52 /* ProfileViewController.swift */,
 				A8AE7F321D1E95C800497E52 /* Main.storyboard */,
+				A8FD10FE1D1EC5A4005760F4 /* ExploreViewController.swift */,
 				A8AE7F351D1E95C800497E52 /* Assets.xcassets */,
 				A8AE7F371D1E95C800497E52 /* LaunchScreen.storyboard */,
 				A8AE7F3A1D1E95C800497E52 /* Info.plist */,
@@ -271,9 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8AE7F311D1E95C800497E52 /* SecondViewController.swift in Sources */,
+				A8FD10FF1D1EC5A4005760F4 /* ExploreViewController.swift in Sources */,
+				A8AE7F311D1E95C800497E52 /* ProfileViewController.swift in Sources */,
 				A8AE7F2D1D1E95C800497E52 /* AppDelegate.swift in Sources */,
-				A8AE7F2F1D1E95C800497E52 /* FirstViewController.swift in Sources */,
+				A8AE7F2F1D1E95C800497E52 /* AddProjectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
