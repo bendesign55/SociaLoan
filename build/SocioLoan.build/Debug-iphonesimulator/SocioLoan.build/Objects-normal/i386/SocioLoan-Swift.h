@@ -126,11 +126,32 @@ SWIFT_CLASS("_TtC9SocioLoan11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
 
-SWIFT_CLASS("_TtC9SocioLoan21ExploreViewController")
-@interface ExploreViewController : UIViewController
+SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
+@interface ExploreTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Amount;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfProject;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfPerson;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+
+SWIFT_CLASS("_TtC9SocioLoan26ExploreTableViewController")
+@interface ExploreTableViewController : UITableViewController
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
