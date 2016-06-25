@@ -9,11 +9,12 @@
 import UIKit
 
 class ExploreTableViewCell: UITableViewCell {
+    
 
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var nameOfPerson: UILabel!
     @IBOutlet weak var nameOfProject: UILabel!
-    @IBOutlet weak var amount: UIButton!
+    @IBOutlet weak var amount: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -9,7 +9,7 @@
 import UIKit
 import FBSDKLoginKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
 
     override func viewDidAppear(animated: Bool) {
         if (FBSDKAccessToken.currentAccessToken() != nil) {
@@ -22,13 +22,26 @@ class LoginViewController: UIViewController {
         
         let loginButton: FBSDKLoginButton = {
             let button = FBSDKLoginButton()
-            button.readPermissions = ["user_friends", "user_photos"]
+            button.readPermissions = ["public_profile", "email", "user_friends", "user_photos"]
             return button
         }()
         
         loginButton.center = self.view.center
         self.view.addSubview(loginButton)
         
+    }
+    
+    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
+        
+    }
+    
+    func loginButtonWillLogin(loginButton: FBSDKLoginButton!) -> Bool {
+        return true
+    }
+    
+    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+        print("Completed login")
+        print("result")
     }
 
     override func didReceiveMemoryWarning() {
