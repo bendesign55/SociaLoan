@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan28ProfileProjectsTableViewCell", ""]
 provides-dynamic-lookup:
-- "awakeFromNib"
-- "usersCollectionView"
-- "setSelected"
 - "projectLabel"
-- "projectDescription"
-- "creditRatingCollectionView"
 - "profileProjectImageView"
+- "usersCollectionView"
+- "awakeFromNib"
+- "creditRatingCollectionView"
+- "setSelected"
+- "projectDescription"
 depends-top-level:
+- "UICollectionView"
 - "UITableViewCell"
 - "UILabel"
-- "ProfileProjectsTableViewCell"
-- "Bool"
-- "UICollectionView"
 - "UITextView"
 - "UIImageView"
+- "Bool"
+- "ProfileProjectsTableViewCell"
 depends-member:
 - ["Ps9AnyObject", "awakeFromNib"]
 - ["Ps9AnyObject", "creditRatingCollectionView"]

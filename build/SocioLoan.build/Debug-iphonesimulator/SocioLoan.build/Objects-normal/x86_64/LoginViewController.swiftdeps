@@ -6,18 +6,26 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan19LoginViewController", ""]
 provides-dynamic-lookup:
-- "viewDidAppear"
 - "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidAppear"
+- "loginButton"
+- "loginButtonDidLogOut"
+- "loginButtonWillLogin"
 depends-top-level:
-- !private "FBSDKLoginButton"
+- "NSError"
+- "FBSDKLoginButton"
 - "Bool"
-- "LoginViewController"
-- !private "FBSDKAccessToken"
-- "Array"
-- !private "!="
 - !private "StringLiteralType"
+- "FBSDKLoginManagerLoginResult"
+- "FBSDKLoginButtonDelegate"
+- !private "print"
+- "Array"
+- !private "FBSDKAccessToken"
 - "UIViewController"
+- "LoginViewController"
+- !private "BooleanLiteralType"
+- !private "!="
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKAccessToken"]
 - !private ["Ps9AnyObject", "FBSDKLoginButton"]
@@ -27,7 +35,11 @@ depends-member:
 - !private ["Ps9AnyObject", "deinit"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loginButton"]
+- ["Ps9AnyObject", "loginButtonDidLogOut"]
+- ["Ps9AnyObject", "loginButtonWillLogin"]
 - !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "readPermissions"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidAppear"]
@@ -45,7 +57,11 @@ depends-member:
 - !private ["Ps11CVarArgType", "currentAccessToken"]
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
 - ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "loginButton"]
+- ["Ps11CVarArgType", "loginButtonDidLogOut"]
+- ["Ps11CVarArgType", "loginButtonWillLogin"]
 - !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- !private ["Ps11CVarArgType", "print"]
 - !private ["Ps11CVarArgType", "readPermissions"]
 - !private ["Ps11CVarArgType", "view"]
 - ["Ps11CVarArgType", "viewDidAppear"]
@@ -60,7 +76,11 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "currentAccessToken"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loginButton"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonDidLogOut"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonWillLogin"]
 - !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "readPermissions"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
@@ -75,7 +95,11 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "currentAccessToken"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loginButton"]
+- ["Ps23CustomStringConvertible", "loginButtonDidLogOut"]
+- ["Ps23CustomStringConvertible", "loginButtonWillLogin"]
 - !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "readPermissions"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidAppear"]
@@ -89,7 +113,11 @@ depends-member:
 - !private ["Ps9Equatable", "currentAccessToken"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loginButton"]
+- ["Ps9Equatable", "loginButtonDidLogOut"]
+- ["Ps9Equatable", "loginButtonWillLogin"]
 - !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "readPermissions"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidAppear"]
@@ -104,6 +132,15 @@ depends-member:
 - !private ["CSo16FBSDKLoginButton", "center"]
 - !private ["CSo16FBSDKLoginButton", "init"]
 - !private ["CSo16FBSDKLoginButton", "readPermissions"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKAccessToken"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "FBSDKLoginButton"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButton"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonDidLogOut"]
+- ["PSo24FBSDKLoginButtonDelegate", "loginButtonWillLogin"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "performSegueWithIdentifier"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "print"]
+- !private ["PSo24FBSDKLoginButtonDelegate", "view"]
+- ["PSo24FBSDKLoginButtonDelegate", ""]
 - !private ["Ps8Hashable", "FBSDKAccessToken"]
 - !private ["Ps8Hashable", "FBSDKLoginButton"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
@@ -112,7 +149,11 @@ depends-member:
 - !private ["Ps8Hashable", "currentAccessToken"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loginButton"]
+- ["Ps8Hashable", "loginButtonDidLogOut"]
+- ["Ps8Hashable", "loginButtonWillLogin"]
 - !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "readPermissions"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidAppear"]
@@ -122,11 +163,17 @@ depends-member:
 - !private ["Ps9Indexable", "Element"]
 - ["C9SocioLoan19LoginViewController", "Bool"]
 - !private ["C9SocioLoan19LoginViewController", "FBSDKAccessToken"]
-- !private ["C9SocioLoan19LoginViewController", "FBSDKLoginButton"]
+- ["C9SocioLoan19LoginViewController", "FBSDKLoginButton"]
+- ["C9SocioLoan19LoginViewController", "FBSDKLoginManagerLoginResult"]
+- ["C9SocioLoan19LoginViewController", "NSError"]
 - ["C9SocioLoan19LoginViewController", "deinit"]
 - ["C9SocioLoan19LoginViewController", "didReceiveMemoryWarning"]
 - ["C9SocioLoan19LoginViewController", "init"]
+- ["C9SocioLoan19LoginViewController", "loginButton"]
+- ["C9SocioLoan19LoginViewController", "loginButtonDidLogOut"]
+- ["C9SocioLoan19LoginViewController", "loginButtonWillLogin"]
 - !private ["C9SocioLoan19LoginViewController", "performSegueWithIdentifier"]
+- !private ["C9SocioLoan19LoginViewController", "print"]
 - !private ["C9SocioLoan19LoginViewController", "view"]
 - ["C9SocioLoan19LoginViewController", "viewDidAppear"]
 - ["C9SocioLoan19LoginViewController", "viewDidLoad"]
@@ -140,7 +187,11 @@ depends-member:
 - !private ["PSo8NSCoding", "currentAccessToken"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "loginButtonDidLogOut"]
+- ["PSo8NSCoding", "loginButtonWillLogin"]
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "readPermissions"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidAppear"]
@@ -151,21 +202,31 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "FBSDKLoginButton"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonDidLogOut"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonWillLogin"]
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "FBSDKAccessToken"]
-- !private ["CSo8NSObject", "FBSDKLoginButton"]
+- ["CSo8NSObject", "FBSDKLoginButton"]
+- ["CSo8NSObject", "FBSDKLoginManagerLoginResult"]
+- ["CSo8NSObject", "NSError"]
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "center"]
 - !private ["CSo8NSObject", "currentAccessToken"]
 - !private ["CSo8NSObject", "deinit"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "loginButtonDidLogOut"]
+- ["CSo8NSObject", "loginButtonWillLogin"]
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "readPermissions"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidAppear"]
@@ -177,7 +238,11 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "currentAccessToken"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "loginButtonDidLogOut"]
+- ["PSo16NSObjectProtocol", "loginButtonWillLogin"]
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "readPermissions"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidAppear"]
@@ -202,7 +267,11 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "center"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "loginButtonDidLogOut"]
+- ["PSo21UIAppearanceContainer", "loginButtonWillLogin"]
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "readPermissions"]
 - !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidAppear"]
@@ -215,7 +284,11 @@ depends-member:
 - !private ["PSo18UIContentContainer", "FBSDKLoginButton"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "loginButtonDidLogOut"]
+- ["PSo18UIContentContainer", "loginButtonWillLogin"]
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "print"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidAppear"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -237,7 +310,11 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "center"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UIFocusEnvironment", "loginButtonWillLogin"]
 - !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "readPermissions"]
 - !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidAppear"]
@@ -245,12 +322,18 @@ depends-member:
 - ["PSo18UIFocusEnvironment", ""]
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "FBSDKAccessToken"]
-- !private ["CSo11UIResponder", "FBSDKLoginButton"]
+- ["CSo11UIResponder", "FBSDKLoginButton"]
+- ["CSo11UIResponder", "FBSDKLoginManagerLoginResult"]
+- ["CSo11UIResponder", "NSError"]
 - !private ["CSo11UIResponder", "addSubview"]
 - !private ["CSo11UIResponder", "center"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "loginButtonDidLogOut"]
+- ["CSo11UIResponder", "loginButtonWillLogin"]
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "readPermissions"]
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidAppear"]
@@ -259,7 +342,11 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "FBSDKLoginButton"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "loginButtonDidLogOut"]
+- ["PSo16UIStateRestoring", "loginButtonWillLogin"]
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "print"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidAppear"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -270,7 +357,11 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "center"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "loginButtonDidLogOut"]
+- ["PSo18UITraitEnvironment", "loginButtonWillLogin"]
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "readPermissions"]
 - !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidAppear"]
@@ -282,10 +373,16 @@ depends-member:
 - !private ["CSo6UIView", "readPermissions"]
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "FBSDKAccessToken"]
-- !private ["CSo16UIViewController", "FBSDKLoginButton"]
+- ["CSo16UIViewController", "FBSDKLoginButton"]
+- ["CSo16UIViewController", "FBSDKLoginManagerLoginResult"]
+- ["CSo16UIViewController", "NSError"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "loginButtonDidLogOut"]
+- ["CSo16UIViewController", "loginButtonWillLogin"]
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "print"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -318,6 +415,7 @@ depends-nominal:
 - !private "CSo11FBSDKButton"
 - !private "PSo12FBSDKCopying"
 - !private "CSo16FBSDKLoginButton"
+- "PSo24FBSDKLoginButtonDelegate"
 - "Ps8Hashable"
 - !private "SQ"
 - !private "Ps9Indexable"
@@ -411,4 +509,4 @@ depends-external:
 - "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
 - "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "42a7a4505c61f6728419a5d3056ad347"
+interface-hash: "6eeb6820a781b98c085d629905a8103c"

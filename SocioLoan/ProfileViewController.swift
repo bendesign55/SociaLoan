@@ -8,9 +8,12 @@
 
 import UIKit
 import FBSDKLoginKit
+import Alamofire
 
 class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var cardNumberLabel: UILabel!
     
     @IBOutlet weak var projectsTable: UITableView!
     
@@ -48,8 +51,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
             let cell = projectsTable.dequeueReusableCellWithIdentifier("ProjectID") as! ProfileProjectsTableViewCell
-        
-        
+                
         /*if let url = NSURL(string: "https://duckduckgo.com/i.js?q=Temple%20of%20the%20Golden%20Pavilion&s=1") {
             
             let session = NSURLSession.sharedSession()
@@ -81,6 +83,8 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         return cell
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

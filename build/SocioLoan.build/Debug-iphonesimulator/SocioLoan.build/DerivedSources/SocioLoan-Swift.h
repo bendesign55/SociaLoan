@@ -93,6 +93,8 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
+@import FBSDKLoginKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -134,6 +136,19 @@ SWIFT_CLASS("_TtC9SocioLoan11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSIndexPath;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+
+SWIFT_CLASS("_TtC9SocioLoan26CreditRatingCollectionView")
+@interface CreditRatingCollectionView : UICollectionView <UICollectionViewDataSource>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIImageView;
 @class UILabel;
 
@@ -142,7 +157,7 @@ SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfPerson;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameOfProject;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified amount;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified amount;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
@@ -150,31 +165,35 @@ SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
 @end
 
 @class UITableView;
-@class NSIndexPath;
 
 SWIFT_CLASS("_TtC9SocioLoan26ExploreTableViewController")
 @interface ExploreTableViewController : UITableViewController
+- (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class FBSDKLoginButton;
+@class FBSDKLoginManagerLoginResult;
+@class NSError;
 
 SWIFT_CLASS("_TtC9SocioLoan19LoginViewController")
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <FBSDKLoginButtonDelegate>
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLoad;
+- (void)loginButtonDidLogOut:(FBSDKLoginButton * _Null_unspecified)loginButton;
+- (BOOL)loginButtonWillLogin:(FBSDKLoginButton * _Null_unspecified)loginButton;
+- (void)loginButton:(FBSDKLoginButton * _Null_unspecified)loginButton didCompleteWithResult:(FBSDKLoginManagerLoginResult * _Null_unspecified)result error:(NSError * _Null_unspecified)error;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 
 SWIFT_CLASS("_TtC9SocioLoan28ProfileProjectsTableViewCell")
 @interface ProfileProjectsTableViewCell : UITableViewCell
@@ -192,6 +211,8 @@ SWIFT_CLASS("_TtC9SocioLoan28ProfileProjectsTableViewCell")
 
 SWIFT_CLASS("_TtC9SocioLoan21ProfileViewController")
 @interface ProfileViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cardNumberLabel;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified projectsTable;
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
@@ -201,6 +222,16 @@ SWIFT_CLASS("_TtC9SocioLoan21ProfileViewController")
 - (void)didReceiveMemoryWarning;
 - (IBAction)logoutFromFacebook:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9SocioLoan22ProfilesCollectionView")
+@interface ProfilesCollectionView : UICollectionView <UICollectionViewDataSource>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithFrame:(CGRect)frame collectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
