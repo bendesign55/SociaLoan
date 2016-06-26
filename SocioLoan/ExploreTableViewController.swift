@@ -19,11 +19,11 @@ class ExploreTableViewController: UITableViewController {
         let amount: String
     }
     
-    let cells = [exploreCell(nameOfPerson: "P", nameOfProject: "Making a porn video", image: UIImage(named: "dickbut")!, amount: "$5000"),
-                 exploreCell(nameOfPerson: "I", nameOfProject: "Making a lots of porn videos", image: UIImage(named: "dickbut")!, amount: "$6900"),
-                 exploreCell(nameOfPerson: "N", nameOfProject: "Making the best porn video", image: UIImage(named: "dickbut")!, amount: "$69000"),
-                 exploreCell(nameOfPerson: "Á", nameOfProject: "Making a porn video website", image: UIImage(named: "dickbut")!, amount: "$690000"),
-                 exploreCell(nameOfPerson: "K", nameOfProject: "Simple prostitution", image: UIImage(named: "dickbut")!, amount: "$69")]
+    let cells = [exploreCell(nameOfPerson: "Dora the Explorer", nameOfProject: "Going to Tomorrowland", image: UIImage(named: "brigid-circle-profile")!, amount: "$5000"),
+                 exploreCell(nameOfPerson: "Jack Sparrow", nameOfProject: "Buying a Ferrari", image: UIImage(named: "brigid-circle-profile")!, amount: "$6900"),
+                 exploreCell(nameOfPerson: "John Cena", nameOfProject: "Tickets for the UEFA finals", image: UIImage(named: "brigid-circle-profile")!, amount: "$69000"),
+                 exploreCell(nameOfPerson: "Steve Jobs", nameOfProject: "Start a new tech startup", image: UIImage(named: "brigid-circle-profile")!, amount: "$690000"),
+                 exploreCell(nameOfPerson: "Barack Obama", nameOfProject: "Get a new TV", image: UIImage(named: "brigid-circle-profile")!, amount: "$69")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
