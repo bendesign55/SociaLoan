@@ -1,13 +1,13 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
 options: "b0f6027e197ef977a11022af6d2a36fa"
-build_time: [520243503, 767970000]
+build_time: [520247692, 526805000]
 inputs:
   "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/ExploreTableViewController.swift": [520241513, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/AddFromFacebookTableViewCell.swift": [520241513, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/AddFromFacebookTableViewController.swift": [520241513, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/AddFromFacebookTableViewCell.swift": [520245884, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/AddFromFacebookTableViewController.swift": [520247605, 0]
   "/Users/benormos/Documents/iOS development/Swift/SociaLoan/ProfilesCollectionView.swift": [520241513, 0]
   "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/CreditRatingCollectionView.swift": [520241513, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/ProfileViewController.swift": [520243467, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/ProfileViewController.swift": [520247691, 0]
   "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/ProfileProjectsTableViewCell.swift": [520243363, 0]
   "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/AppDelegate.swift": [520241513, 0]
   "/Users/benormos/Documents/iOS development/Swift/SociaLoan/SocioLoan/ExploreTableViewCell.swift": [520241513, 0]

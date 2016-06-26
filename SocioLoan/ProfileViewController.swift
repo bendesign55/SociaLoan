@@ -34,7 +34,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         // TODO: return number of projects
         
-        return 4
+        return 1
     }
     
     func convertStringToDictionary(text: String) -> [String:AnyObject]? {

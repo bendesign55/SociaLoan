@@ -99,10 +99,14 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UILabel;
+@class UIImageView;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9SocioLoan28AddFromFacebookTableViewCell")
 @interface AddFromFacebookTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified name;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profilePicture;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
@@ -178,8 +182,6 @@ SWIFT_CLASS("_TtC9SocioLoan26CreditRatingCollectionView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
 @interface ExploreTableViewCell : UITableViewCell
