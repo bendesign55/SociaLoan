@@ -20,14 +20,20 @@ class AddFromFacebookTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let parameters = ["fields": "name,picture.type(normal)", "limit": "5"]
+        let parameters = ["fields": "name,picture.type(normal)", "limit": "50"]
         FBSDKGraphRequest(graphPath: "me/taggable_friends", parameters: parameters).startWithCompletionHandler({ (connection, request, requestError) -> Void in
             if requestError != nil {
                 print(requestError)
                 return
             }
             
-                        
+            let data = request.objectForKey("data")
+            for i in 0 ..< data!.count {
+                self.names.append(data![i].objectForKey("name") as! String)
+                self.profilePictureUrl.append(data![i].objectForKey("picture")?.objectForKey("data")?.objectForKey("url") as! String)
+            }
+            print(self.names)
+            print(self.profilePictureUrl)
         })
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(AddFromFacebookTableViewController.cancel))
@@ -71,14 +77,30 @@ class AddFromFacebookTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return 10
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCellWithIdentifier("addFromFacebook", forIndexPath: indexPath) as! AddFromFacebookTableViewCell
-
-        // Configure the cell...
+        
+        print(self.names)
+        print(self.profilePictureUrl)
+            let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
+            dispatch_after(delayTime, dispatch_get_main_queue()) {
+                
+                cell.name.text = self.names[indexPath.row]
+                // Setting the imageView
+                let url = NSURL(string: self.profilePictureUrl[indexPath.row])
+                
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+                    let data = NSData(contentsOfURL: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
+                    dispatch_async(dispatch_get_main_queue(), {
+                        cell.profilePicture.image = UIImage(data: data!)
+                    });
+                }
+            }
 
         return cell
     }
