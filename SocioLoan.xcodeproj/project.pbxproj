@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54452AEF1D1F8EB3007A817F /* AddFromFacebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54452AEE1D1F8EB3007A817F /* AddFromFacebookTableViewController.swift */; };
-		54452AF11D1F8F8B007A817F /* AddFromFacebookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54452AF01D1F8F8B007A817F /* AddFromFacebookTableViewCell.swift */; };
+		11EFB3F39E1FCA5521ABEA35 /* Pods_SocioLoan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E47BFC5C3DEB83273A3BCB1 /* Pods_SocioLoan.framework */; };
+		A8AC7AFB1D1F9342003D392A /* ProfilesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC7AFA1D1F9342003D392A /* ProfilesCollectionView.swift */; };
+		A8AC7AFD1D1F9394003D392A /* CreditRatingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC7AFC1D1F9394003D392A /* CreditRatingCollectionView.swift */; };
 		A8AE7F2D1D1E95C800497E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F2C1D1E95C800497E52 /* AppDelegate.swift */; };
 		A8AE7F2F1D1E95C800497E52 /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F2E1D1E95C800497E52 /* AddProjectViewController.swift */; };
 		A8AE7F311D1E95C800497E52 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F301D1E95C800497E52 /* ProfileViewController.swift */; };
@@ -44,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54452AEE1D1F8EB3007A817F /* AddFromFacebookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFromFacebookTableViewController.swift; sourceTree = "<group>"; };
-		54452AF01D1F8F8B007A817F /* AddFromFacebookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFromFacebookTableViewCell.swift; sourceTree = "<group>"; };
+		91521B41C0E0771C9A6DF366 /* Pods-SocioLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocioLoan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocioLoan/Pods-SocioLoan.debug.xcconfig"; sourceTree = "<group>"; };
+		9E47BFC5C3DEB83273A3BCB1 /* Pods_SocioLoan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocioLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AC7AFA1D1F9342003D392A /* ProfilesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilesCollectionView.swift; path = ../ProfilesCollectionView.swift; sourceTree = "<group>"; };
+		A8AC7AFC1D1F9394003D392A /* CreditRatingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditRatingCollectionView.swift; sourceTree = "<group>"; };
 		A8AE7F291D1E95C800497E52 /* SocioLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocioLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AE7F2C1D1E95C800497E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8AE7F2E1D1E95C800497E52 /* AddProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectViewController.swift; sourceTree = "<group>"; };
