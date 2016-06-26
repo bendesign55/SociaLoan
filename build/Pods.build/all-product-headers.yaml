@@ -4,55 +4,82 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
           'name': "Alamofire-umbrella.h",
-          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Debug-iphoneos/Pods_SocioLoan.framework/Headers",
+      'name': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Pods_SocioLoan.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-SocioLoan-umbrella.h",
-          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/Pods/Target Support Files/Pods-SocioLoan/Pods-SocioLoan-umbrella.h"
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/Pods-SocioLoan/Pods-SocioLoan-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_SocioLoan-Swift.h",
-          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Debug-iphoneos/Pods_SocioLoan.framework/Headers/Pods_SocioLoan-Swift.h"
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Pods_SocioLoan.framework/Headers/Pods_SocioLoan-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Debug-iphoneos/Pods_SocioLoan.framework/Modules",
+      'name': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Pods_SocioLoan.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Pods.build/Debug-iphoneos/Pods-SocioLoan.build/module.modulemap"
+          'external-contents': "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphonesimulator/Pods-SocioLoan.build/module.modulemap"
         }
       ]
     }

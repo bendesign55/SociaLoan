@@ -99,11 +99,41 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9SocioLoan28AddFromFacebookTableViewCell")
+@interface AddFromFacebookTableViewCell : UITableViewCell
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchController;
+@class UITableView;
+@class NSIndexPath;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC9SocioLoan34AddFromFacebookTableViewController")
+@interface AddFromFacebookTableViewController : UITableViewController
+@property (nonatomic, readonly, strong) UISearchController * _Nonnull searchController;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull names;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull profilePictureUrl;
+- (void)viewDidLoad;
+- (void)cancel;
+- (void)done;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIButton;
 @class UITextField;
 @class UITextView;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC9SocioLoan24AddProjectViewController")
 @interface AddProjectViewController : UIViewController
@@ -136,7 +166,6 @@ SWIFT_CLASS("_TtC9SocioLoan11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSIndexPath;
 @class UICollectionViewCell;
 @class UICollectionViewLayout;
 
@@ -164,7 +193,6 @@ SWIFT_CLASS("_TtC9SocioLoan20ExploreTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 SWIFT_CLASS("_TtC9SocioLoan26ExploreTableViewController")
 @interface ExploreTableViewController : UITableViewController
@@ -206,6 +234,10 @@ SWIFT_CLASS("_TtC9SocioLoan28ProfileProjectsTableViewCell")
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ProfileProjectsTableViewCell (SWIFT_EXTENSION(SocioLoan))
 @end
 
 

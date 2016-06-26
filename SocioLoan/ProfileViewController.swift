@@ -9,6 +9,7 @@
 import UIKit
 import FBSDKLoginKit
 import Alamofire
+import AlamofireImage
 
 class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -52,34 +53,42 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
             let cell = projectsTable.dequeueReusableCellWithIdentifier("ProjectID") as! ProfileProjectsTableViewCell
                 
-        /*if let url = NSURL(string: "https://duckduckgo.com/i.js?q=Temple%20of%20the%20Golden%20Pavilion&s=1") {
+        if let URLString = NSURL(string: "https://duckduckgo.com/i.js") {
             
-            let session = NSURLSession.sharedSession()
-            let dataTask = session.dataTaskWithURL(url,completionHandler: {(data,_,_) in
-                defer {
-                }
-                if let data = data, string = String(data: data, encoding: NSUTF8StringEncoding) {
-                    let json = self.convertStringToDictionary(string)!
-                    let img_url_string = String(json["results"]![0]["image"])
-                    var URLString = img_url_string[img_url_string.startIndex.advancedBy(9)...img_url_string.endIndex.advancedBy(-2)]
-                    
-                    print(URLString)
-            
-                    let img_url = NSURL(string: URLString)
-                    
-                    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
-                        let data = NSData(contentsOfURL: img_url!) //make sure your image in this url does exist, otherwise unwrap in a if let check
-                        dispatch_async(dispatch_get_main_queue(), {
-                            cell.profileProjectImageView.image = UIImage(data: data!)
-                        });
+            Alamofire.request(
+                .GET,
+                URLString,
+                parameters: ["q": "China"],
+                encoding: .URL)
+                .validate()
+                .responseJSON { response in
+                    if response.result.isSuccess {
+                        if let value = response.result.value as? [String: AnyObject] {
+                            let results = value["results"] as? [[String: AnyObject]]
+                            let partialResultDict = results![0]
+                            let imgString = partialResultDict["thumbnail"]!
+                            let img_url = imgString as! String
+                            Alamofire.request(.GET, img_url)
+                                .responseImage { response in
+                                    debugPrint(response)
+                                    
+                                    print(response.request)
+                                    print(response.response)
+                                    debugPrint(response.result)
+                                    
+                                    if let image = response.result.value {
+                                        print("image downloaded: \(image)")
+                                        print(image.dynamicType)
+                                        cell.profileProjectImageView.image = image
+                                        
+                                    }
+                            }
+                        }
                     }
-                }
-                }
-            )
+            }
             
-            dataTask.resume()
-        }*/
-        
+            
+        }
         
         return cell
     }

@@ -1,0 +1,343 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C9Alamofire7Request", ""]
+- ["C9Alamofire7Request", "acceptableImageContentTypes"]
+- ["C9Alamofire7Request", "addAcceptableImageContentTypes"]
+- ["C9Alamofire7Request", "imageResponseSerializer"]
+- ["C9Alamofire7Request", "responseImage"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "UIScreen"
+- "String"
+- "Request"
+- "NSError"
+- "StringLiteralType"
+- "Bool"
+- !private "NSHTTPURLResponse"
+- "ResponseSerializer"
+- !private ">"
+- !private "=="
+- "Set"
+- !private "NSURLRequest"
+- "Void"
+- !private "NSData"
+- "Array"
+- "Response"
+- "CGFloat"
+- !private "Error"
+- "BooleanLiteralType"
+- "Image"
+- !private "NSURLErrorCannotDecodeContentData"
+- "UIImage"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "MIMEType"]
+- !private ["Ps9AnyObject", "NSURLErrorCannotDecodeContentData"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "ResponseSerializer"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "acceptableImageContentTypes"]
+- !private ["Ps9AnyObject", "af_inflate"]
+- !private ["Ps9AnyObject", "af_threadSafeImageWithData"]
+- !private ["Ps9AnyObject", "contentTypeValidationError"]
+- !private ["Ps9AnyObject", "fileURL"]
+- !private ["Ps9AnyObject", "imageDataError"]
+- !private ["Ps9AnyObject", "imageFromResponseData"]
+- !private ["Ps9AnyObject", "imageResponseSerializer"]
+- !private ["Ps9AnyObject", "imageScale"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "mainScreen"]
+- !private ["Ps9AnyObject", "response"]
+- !private ["Ps9AnyObject", "scale"]
+- !private ["Ps9AnyObject", "validateContentTypeForRequest"]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "contains"]
+- !private ["Ps23ArrayLiteralConvertible", "unionInPlace"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "MIMEType"]
+- !private ["Ps11CVarArgType", "URL"]
+- !private ["Ps11CVarArgType", "af_inflate"]
+- !private ["Ps11CVarArgType", "af_threadSafeImageWithData"]
+- !private ["Ps11CVarArgType", "fileURL"]
+- !private ["Ps11CVarArgType", "length"]
+- !private ["Ps11CVarArgType", "mainScreen"]
+- !private ["Ps11CVarArgType", "scale"]
+- ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "contains"]
+- !private ["Ps14CollectionType", "unionInPlace"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Error"]
+- !private ["Ps28CustomDebugStringConvertible", "Failure"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "MIMEType"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLErrorCannotDecodeContentData"]
+- !private ["Ps28CustomDebugStringConvertible", "Request"]
+- !private ["Ps28CustomDebugStringConvertible", "ResponseSerializer"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "Success"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "acceptableImageContentTypes"]
+- !private ["Ps28CustomDebugStringConvertible", "af_inflate"]
+- !private ["Ps28CustomDebugStringConvertible", "af_threadSafeImageWithData"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "contentTypeValidationError"]
+- !private ["Ps28CustomDebugStringConvertible", "fileURL"]
+- !private ["Ps28CustomDebugStringConvertible", "imageDataError"]
+- !private ["Ps28CustomDebugStringConvertible", "imageFromResponseData"]
+- !private ["Ps28CustomDebugStringConvertible", "imageResponseSerializer"]
+- !private ["Ps28CustomDebugStringConvertible", "imageScale"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "mainScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "response"]
+- !private ["Ps28CustomDebugStringConvertible", "scale"]
+- !private ["Ps28CustomDebugStringConvertible", "unionInPlace"]
+- !private ["Ps28CustomDebugStringConvertible", "validateContentTypeForRequest"]
+- ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Error"]
+- !private ["Ps23CustomStringConvertible", "Failure"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "MIMEType"]
+- !private ["Ps23CustomStringConvertible", "NSURLErrorCannotDecodeContentData"]
+- !private ["Ps23CustomStringConvertible", "Request"]
+- !private ["Ps23CustomStringConvertible", "ResponseSerializer"]
+- !private ["Ps23CustomStringConvertible", "Success"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "acceptableImageContentTypes"]
+- !private ["Ps23CustomStringConvertible", "af_inflate"]
+- !private ["Ps23CustomStringConvertible", "af_threadSafeImageWithData"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "contentTypeValidationError"]
+- !private ["Ps23CustomStringConvertible", "fileURL"]
+- !private ["Ps23CustomStringConvertible", "imageDataError"]
+- !private ["Ps23CustomStringConvertible", "imageFromResponseData"]
+- !private ["Ps23CustomStringConvertible", "imageResponseSerializer"]
+- !private ["Ps23CustomStringConvertible", "imageScale"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "mainScreen"]
+- !private ["Ps23CustomStringConvertible", "response"]
+- !private ["Ps23CustomStringConvertible", "scale"]
+- !private ["Ps23CustomStringConvertible", "unionInPlace"]
+- !private ["Ps23CustomStringConvertible", "validateContentTypeForRequest"]
+- ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "MIMEType"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "af_inflate"]
+- !private ["Ps9Equatable", "af_threadSafeImageWithData"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "fileURL"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "mainScreen"]
+- !private ["Ps9Equatable", "scale"]
+- !private ["Ps9Equatable", "unionInPlace"]
+- !private ["V9Alamofire5Error", "errorWithCode"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "Element"]
+- !private ["Ps8Hashable", "Generator"]
+- !private ["Ps8Hashable", "MIMEType"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "af_inflate"]
+- !private ["Ps8Hashable", "af_threadSafeImageWithData"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "fileURL"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "mainScreen"]
+- !private ["Ps8Hashable", "scale"]
+- !private ["Ps8Hashable", "unionInPlace"]
+- ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "contains"]
+- !private ["Ps9Indexable", "unionInPlace"]
+- !private ["PSo8NSCoding", "MIMEType"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "af_inflate"]
+- !private ["PSo8NSCoding", "af_threadSafeImageWithData"]
+- !private ["PSo8NSCoding", "fileURL"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo9NSCopying", "MIMEType"]
+- !private ["PSo9NSCopying", "URL"]
+- !private ["PSo9NSCopying", "fileURL"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["CSo6NSData", "length"]
+- !private ["CSo17NSHTTPURLResponse", "MIMEType"]
+- !private ["PSo16NSMutableCopying", "URL"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["CSo8NSObject", "MIMEType"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "af_inflate"]
+- !private ["CSo8NSObject", "af_threadSafeImageWithData"]
+- !private ["CSo8NSObject", "fileURL"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "mainScreen"]
+- !private ["CSo8NSObject", "scale"]
+- !private ["PSo16NSObjectProtocol", "MIMEType"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "af_inflate"]
+- !private ["PSo16NSObjectProtocol", "af_threadSafeImageWithData"]
+- !private ["PSo16NSObjectProtocol", "fileURL"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "mainScreen"]
+- !private ["PSo16NSObjectProtocol", "scale"]
+- !private ["PSo14NSSecureCoding", "MIMEType"]
+- !private ["PSo14NSSecureCoding", "URL"]
+- !private ["PSo14NSSecureCoding", "af_inflate"]
+- !private ["PSo14NSSecureCoding", "af_threadSafeImageWithData"]
+- !private ["PSo14NSSecureCoding", "fileURL"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["CSo5NSURL", "fileURL"]
+- !private ["CSo12NSURLRequest", "URL"]
+- !private ["CSo13NSURLResponse", "MIMEType"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["C9Alamofire7Request", "Bool"]
+- ["C9Alamofire7Request", "CGFloat"]
+- !private ["C9Alamofire7Request", "Error"]
+- ["C9Alamofire7Request", "Image"]
+- !private ["C9Alamofire7Request", "NSData"]
+- ["C9Alamofire7Request", "NSError"]
+- !private ["C9Alamofire7Request", "NSHTTPURLResponse"]
+- !private ["C9Alamofire7Request", "NSURLErrorCannotDecodeContentData"]
+- !private ["C9Alamofire7Request", "NSURLRequest"]
+- !private ["C9Alamofire7Request", "Request"]
+- ["C9Alamofire7Request", "Response"]
+- ["C9Alamofire7Request", "ResponseSerializer"]
+- ["C9Alamofire7Request", "Set"]
+- ["C9Alamofire7Request", "String"]
+- ["C9Alamofire7Request", "UIImage"]
+- !private ["C9Alamofire7Request", "UIScreen"]
+- ["C9Alamofire7Request", "Void"]
+- ["C9Alamofire7Request", "acceptableImageContentTypes"]
+- ["C9Alamofire7Request", "addAcceptableImageContentTypes"]
+- !private ["C9Alamofire7Request", "contentTypeValidationError"]
+- !private ["C9Alamofire7Request", "imageDataError"]
+- !private ["C9Alamofire7Request", "imageFromResponseData"]
+- ["C9Alamofire7Request", "imageResponseSerializer"]
+- !private ["C9Alamofire7Request", "imageScale"]
+- !private ["C9Alamofire7Request", "response"]
+- ["C9Alamofire7Request", "responseImage"]
+- !private ["C9Alamofire7Request", "validateContentTypeForRequest"]
+- !private ["V9Alamofire18ResponseSerializer", "ErrorObject"]
+- !private ["V9Alamofire18ResponseSerializer", "SerializedObject"]
+- !private ["V9Alamofire18ResponseSerializer", "init"]
+- !private ["P9Alamofire22ResponseSerializerType", "ErrorObject"]
+- !private ["P9Alamofire22ResponseSerializerType", "SerializedObject"]
+- !private ["P9Alamofire22ResponseSerializerType", "init"]
+- !private ["O9Alamofire6Result", "Failure"]
+- !private ["O9Alamofire6Result", "Success"]
+- ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "contains"]
+- !private ["Ps12SequenceType", "unionInPlace"]
+- ["Vs3Set", "Element"]
+- !private ["Vs3Set", "Generator"]
+- !private ["Vs3Set", "contains"]
+- !private ["Vs3Set", "unionInPlace"]
+- !private ["Vs12SetGenerator", "Element"]
+- !private ["PSo29UIAccessibilityIdentification", "af_inflate"]
+- !private ["PSo29UIAccessibilityIdentification", "af_threadSafeImageWithData"]
+- !private ["CSo7UIImage", "af_inflate"]
+- !private ["CSo7UIImage", "af_threadSafeImageWithData"]
+- !private ["CSo8UIScreen", "mainScreen"]
+- !private ["CSo8UIScreen", "scale"]
+- !private ["PSo18UITraitEnvironment", "mainScreen"]
+- !private ["PSo18UITraitEnvironment", "scale"]
+- !private ["P9Alamofire21URLRequestConvertible", "URL"]
+- !private ["P9Alamofire20URLStringConvertible", "URL"]
+- !private ["P9Alamofire20URLStringConvertible", "fileURL"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "fileURL"]
+- !private ["Ps24_ImageLiteralConvertible", "af_inflate"]
+- !private ["Ps24_ImageLiteralConvertible", "af_threadSafeImageWithData"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "unionInPlace"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "contains"]
+- !private ["Ps12_Reflectable", "fileURL"]
+- !private ["Ps12_Reflectable", "unionInPlace"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Ps23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "V9Alamofire5Error"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo17NSHTTPURLResponse"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo13NSURLResponse"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- "C9Alamofire7Request"
+- !private "V9Alamofire18ResponseSerializer"
+- !private "P9Alamofire22ResponseSerializerType"
+- !private "O9Alamofire6Result"
+- "Ps12SequenceType"
+- "Vs3Set"
+- !private "Vs12SetGenerator"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "CSo8UIScreen"
+- !private "PSo18UITraitEnvironment"
+- !private "P9Alamofire21URLRequestConvertible"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphoneos/AlamofireImage.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+interface-hash: "844b0443d93ef46f6f558fda953c28af"

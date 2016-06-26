@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "562c81d3fb1999a8d0d9c75de0322c56"
+build_time: [520243501, 502680000]
+inputs:
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/Image.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/ImageCache.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/ImageDownloader.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/ImageFilter.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [520243387, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [520243387, 0]

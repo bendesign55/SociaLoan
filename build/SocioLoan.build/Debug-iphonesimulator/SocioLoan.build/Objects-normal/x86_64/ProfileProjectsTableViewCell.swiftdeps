@@ -5,110 +5,184 @@ provides-nominal:
 - "C9SocioLoan28ProfileProjectsTableViewCell"
 provides-member:
 - ["C9SocioLoan28ProfileProjectsTableViewCell", ""]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "setCollectionViewDataSourceDelegate"]
 provides-dynamic-lookup:
+- "usersCollectionView"
+- "projectDescription"
+- "setSelected"
 - "projectLabel"
 - "profileProjectImageView"
-- "usersCollectionView"
-- "awakeFromNib"
 - "creditRatingCollectionView"
-- "setSelected"
-- "projectDescription"
+- "awakeFromNib"
 depends-top-level:
-- "UICollectionView"
 - "UITableViewCell"
-- "UILabel"
 - "UITextView"
-- "UIImageView"
-- "Bool"
 - "ProfileProjectsTableViewCell"
+- "UICollectionViewDataSource"
+- "Int"
+- "UIImageView"
+- "UILabel"
+- "UICollectionView"
+- !private "BooleanLiteralType"
+- "UICollectionViewDelegate"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "contentOffset"]
 - ["Ps9AnyObject", "creditRatingCollectionView"]
+- !private ["Ps9AnyObject", "dataSource"]
+- !private ["Ps9AnyObject", "delegate"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "profileProjectImageView"]
 - ["Ps9AnyObject", "projectDescription"]
 - ["Ps9AnyObject", "projectLabel"]
+- !private ["Ps9AnyObject", "reloadData"]
+- ["Ps9AnyObject", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps9AnyObject", "setContentOffset"]
 - ["Ps9AnyObject", "setSelected"]
+- !private ["Ps9AnyObject", "tag"]
 - ["Ps9AnyObject", "usersCollectionView"]
 - ["Ps9AnyObject", ""]
 - ["Ps11CVarArgType", "awakeFromNib"]
+- !private ["Ps11CVarArgType", "contentOffset"]
 - ["Ps11CVarArgType", "creditRatingCollectionView"]
+- !private ["Ps11CVarArgType", "dataSource"]
+- !private ["Ps11CVarArgType", "delegate"]
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "profileProjectImageView"]
 - ["Ps11CVarArgType", "projectDescription"]
 - ["Ps11CVarArgType", "projectLabel"]
+- !private ["Ps11CVarArgType", "reloadData"]
+- ["Ps11CVarArgType", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps11CVarArgType", "setContentOffset"]
 - ["Ps11CVarArgType", "setSelected"]
+- !private ["Ps11CVarArgType", "tag"]
 - ["Ps11CVarArgType", "usersCollectionView"]
 - ["Ps11CVarArgType", ""]
 - ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "contentOffset"]
 - ["Ps28CustomDebugStringConvertible", "creditRatingCollectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSource"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "profileProjectImageView"]
 - ["Ps28CustomDebugStringConvertible", "projectDescription"]
 - ["Ps28CustomDebugStringConvertible", "projectLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- ["Ps28CustomDebugStringConvertible", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "setContentOffset"]
 - ["Ps28CustomDebugStringConvertible", "setSelected"]
+- !private ["Ps28CustomDebugStringConvertible", "tag"]
 - ["Ps28CustomDebugStringConvertible", "usersCollectionView"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "contentOffset"]
 - ["Ps23CustomStringConvertible", "creditRatingCollectionView"]
+- !private ["Ps23CustomStringConvertible", "dataSource"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "profileProjectImageView"]
 - ["Ps23CustomStringConvertible", "projectDescription"]
 - ["Ps23CustomStringConvertible", "projectLabel"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- ["Ps23CustomStringConvertible", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps23CustomStringConvertible", "setContentOffset"]
 - ["Ps23CustomStringConvertible", "setSelected"]
+- !private ["Ps23CustomStringConvertible", "tag"]
 - ["Ps23CustomStringConvertible", "usersCollectionView"]
 - ["Ps23CustomStringConvertible", ""]
 - ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "contentOffset"]
 - ["Ps9Equatable", "creditRatingCollectionView"]
+- !private ["Ps9Equatable", "dataSource"]
+- !private ["Ps9Equatable", "delegate"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "profileProjectImageView"]
 - ["Ps9Equatable", "projectDescription"]
 - ["Ps9Equatable", "projectLabel"]
+- !private ["Ps9Equatable", "reloadData"]
+- ["Ps9Equatable", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps9Equatable", "setContentOffset"]
 - ["Ps9Equatable", "setSelected"]
+- !private ["Ps9Equatable", "tag"]
 - ["Ps9Equatable", "usersCollectionView"]
 - ["Ps9Equatable", ""]
 - ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "contentOffset"]
 - ["Ps8Hashable", "creditRatingCollectionView"]
+- !private ["Ps8Hashable", "dataSource"]
+- !private ["Ps8Hashable", "delegate"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "profileProjectImageView"]
 - ["Ps8Hashable", "projectDescription"]
 - ["Ps8Hashable", "projectLabel"]
+- !private ["Ps8Hashable", "reloadData"]
+- ["Ps8Hashable", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps8Hashable", "setContentOffset"]
 - ["Ps8Hashable", "setSelected"]
+- !private ["Ps8Hashable", "tag"]
 - ["Ps8Hashable", "usersCollectionView"]
 - ["Ps8Hashable", ""]
 - ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "contentOffset"]
 - ["PSo8NSCoding", "creditRatingCollectionView"]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "delegate"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "profileProjectImageView"]
 - ["PSo8NSCoding", "projectDescription"]
 - ["PSo8NSCoding", "projectLabel"]
+- !private ["PSo8NSCoding", "reloadData"]
+- ["PSo8NSCoding", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo8NSCoding", "setContentOffset"]
 - ["PSo8NSCoding", "setSelected"]
+- !private ["PSo8NSCoding", "tag"]
 - ["PSo8NSCoding", "usersCollectionView"]
 - ["PSo8NSCoding", ""]
 - ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "UICollectionView"]
+- ["CSo8NSObject", "UICollectionViewDataSource"]
+- ["CSo8NSObject", "UICollectionViewDelegate"]
 - ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UITextView"]
 - ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "contentOffset"]
 - ["CSo8NSObject", "creditRatingCollectionView"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "profileProjectImageView"]
 - ["CSo8NSObject", "projectDescription"]
 - ["CSo8NSObject", "projectLabel"]
+- !private ["CSo8NSObject", "reloadData"]
+- ["CSo8NSObject", "setCollectionViewDataSourceDelegate"]
+- !private ["CSo8NSObject", "setContentOffset"]
 - ["CSo8NSObject", "setSelected"]
+- !private ["CSo8NSObject", "tag"]
 - ["CSo8NSObject", "usersCollectionView"]
 - ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "contentOffset"]
 - ["PSo16NSObjectProtocol", "creditRatingCollectionView"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "profileProjectImageView"]
 - ["PSo16NSObjectProtocol", "projectDescription"]
 - ["PSo16NSObjectProtocol", "projectLabel"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- ["PSo16NSObjectProtocol", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo16NSObjectProtocol", "setContentOffset"]
 - ["PSo16NSObjectProtocol", "setSelected"]
+- !private ["PSo16NSObjectProtocol", "tag"]
 - ["PSo16NSObjectProtocol", "usersCollectionView"]
 - ["PSo16NSObjectProtocol", ""]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "Bool"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "Int"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "UICollectionView"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "UICollectionViewDataSource"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "UICollectionViewDelegate"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "UIImageView"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "UILabel"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "UITextView"]
@@ -119,60 +193,109 @@ depends-member:
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "profileProjectImageView"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "projectDescription"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "projectLabel"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "setCollectionViewDataSourceDelegate"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "setSelected"]
 - ["C9SocioLoan28ProfileProjectsTableViewCell", "usersCollectionView"]
 - ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "contentOffset"]
 - ["PSo29UIAccessibilityIdentification", "creditRatingCollectionView"]
+- !private ["PSo29UIAccessibilityIdentification", "dataSource"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
 - ["PSo29UIAccessibilityIdentification", "init"]
 - ["PSo29UIAccessibilityIdentification", "profileProjectImageView"]
 - ["PSo29UIAccessibilityIdentification", "projectDescription"]
 - ["PSo29UIAccessibilityIdentification", "projectLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- ["PSo29UIAccessibilityIdentification", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo29UIAccessibilityIdentification", "setContentOffset"]
 - ["PSo29UIAccessibilityIdentification", "setSelected"]
+- !private ["PSo29UIAccessibilityIdentification", "tag"]
 - ["PSo29UIAccessibilityIdentification", "usersCollectionView"]
 - ["PSo29UIAccessibilityIdentification", ""]
 - ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "contentOffset"]
 - ["PSo12UIAppearance", "creditRatingCollectionView"]
+- !private ["PSo12UIAppearance", "dataSource"]
+- !private ["PSo12UIAppearance", "delegate"]
 - ["PSo12UIAppearance", "init"]
 - ["PSo12UIAppearance", "profileProjectImageView"]
 - ["PSo12UIAppearance", "projectDescription"]
 - ["PSo12UIAppearance", "projectLabel"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- ["PSo12UIAppearance", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo12UIAppearance", "setContentOffset"]
 - ["PSo12UIAppearance", "setSelected"]
+- !private ["PSo12UIAppearance", "tag"]
 - ["PSo12UIAppearance", "usersCollectionView"]
 - ["PSo12UIAppearance", ""]
 - ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "contentOffset"]
 - ["PSo21UIAppearanceContainer", "creditRatingCollectionView"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "profileProjectImageView"]
 - ["PSo21UIAppearanceContainer", "projectDescription"]
 - ["PSo21UIAppearanceContainer", "projectLabel"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- ["PSo21UIAppearanceContainer", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo21UIAppearanceContainer", "setContentOffset"]
 - ["PSo21UIAppearanceContainer", "setSelected"]
+- !private ["PSo21UIAppearanceContainer", "tag"]
 - ["PSo21UIAppearanceContainer", "usersCollectionView"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo16UICollectionView", "contentOffset"]
+- !private ["CSo16UICollectionView", "dataSource"]
+- !private ["CSo16UICollectionView", "delegate"]
+- !private ["CSo16UICollectionView", "reloadData"]
+- !private ["CSo16UICollectionView", "setContentOffset"]
+- !private ["CSo16UICollectionView", "tag"]
 - ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "contentOffset"]
 - ["PSo17UICoordinateSpace", "creditRatingCollectionView"]
+- !private ["PSo17UICoordinateSpace", "dataSource"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
 - ["PSo17UICoordinateSpace", "init"]
 - ["PSo17UICoordinateSpace", "profileProjectImageView"]
 - ["PSo17UICoordinateSpace", "projectDescription"]
 - ["PSo17UICoordinateSpace", "projectLabel"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- ["PSo17UICoordinateSpace", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo17UICoordinateSpace", "setContentOffset"]
 - ["PSo17UICoordinateSpace", "setSelected"]
+- !private ["PSo17UICoordinateSpace", "tag"]
 - ["PSo17UICoordinateSpace", "usersCollectionView"]
 - ["PSo17UICoordinateSpace", ""]
 - ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "contentOffset"]
 - ["PSo13UIDynamicItem", "creditRatingCollectionView"]
+- !private ["PSo13UIDynamicItem", "dataSource"]
+- !private ["PSo13UIDynamicItem", "delegate"]
 - ["PSo13UIDynamicItem", "init"]
 - ["PSo13UIDynamicItem", "profileProjectImageView"]
 - ["PSo13UIDynamicItem", "projectDescription"]
 - ["PSo13UIDynamicItem", "projectLabel"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- ["PSo13UIDynamicItem", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo13UIDynamicItem", "setContentOffset"]
 - ["PSo13UIDynamicItem", "setSelected"]
+- !private ["PSo13UIDynamicItem", "tag"]
 - ["PSo13UIDynamicItem", "usersCollectionView"]
 - ["PSo13UIDynamicItem", ""]
 - ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "contentOffset"]
 - ["PSo18UIFocusEnvironment", "creditRatingCollectionView"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "profileProjectImageView"]
 - ["PSo18UIFocusEnvironment", "projectDescription"]
 - ["PSo18UIFocusEnvironment", "projectLabel"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- ["PSo18UIFocusEnvironment", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo18UIFocusEnvironment", "setContentOffset"]
 - ["PSo18UIFocusEnvironment", "setSelected"]
+- !private ["PSo18UIFocusEnvironment", "tag"]
 - ["PSo18UIFocusEnvironment", "usersCollectionView"]
 - ["PSo18UIFocusEnvironment", ""]
 - ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
@@ -181,24 +304,44 @@ depends-member:
 - ["PSo27UIGestureRecognizerDelegate", "profileProjectImageView"]
 - ["PSo27UIGestureRecognizerDelegate", "projectDescription"]
 - ["PSo27UIGestureRecognizerDelegate", "projectLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "setCollectionViewDataSourceDelegate"]
 - ["PSo27UIGestureRecognizerDelegate", "setSelected"]
 - ["PSo27UIGestureRecognizerDelegate", "usersCollectionView"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Int"]
 - ["CSo11UIResponder", "UICollectionView"]
+- ["CSo11UIResponder", "UICollectionViewDataSource"]
+- ["CSo11UIResponder", "UICollectionViewDelegate"]
 - ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UITextView"]
 - ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "contentOffset"]
 - ["CSo11UIResponder", "creditRatingCollectionView"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "delegate"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "profileProjectImageView"]
 - ["CSo11UIResponder", "projectDescription"]
 - ["CSo11UIResponder", "projectLabel"]
+- !private ["CSo11UIResponder", "reloadData"]
+- ["CSo11UIResponder", "setCollectionViewDataSourceDelegate"]
+- !private ["CSo11UIResponder", "setContentOffset"]
 - ["CSo11UIResponder", "setSelected"]
+- !private ["CSo11UIResponder", "tag"]
 - ["CSo11UIResponder", "usersCollectionView"]
+- !private ["CSo12UIScrollView", "contentOffset"]
+- !private ["CSo12UIScrollView", "dataSource"]
+- !private ["CSo12UIScrollView", "delegate"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["CSo12UIScrollView", "setContentOffset"]
+- !private ["CSo12UIScrollView", "tag"]
 - ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "Int"]
 - ["CSo15UITableViewCell", "UICollectionView"]
+- ["CSo15UITableViewCell", "UICollectionViewDataSource"]
+- ["CSo15UITableViewCell", "UICollectionViewDelegate"]
 - ["CSo15UITableViewCell", "UIImageView"]
 - ["CSo15UITableViewCell", "UILabel"]
 - ["CSo15UITableViewCell", "UITextView"]
@@ -208,38 +351,63 @@ depends-member:
 - ["CSo15UITableViewCell", "profileProjectImageView"]
 - ["CSo15UITableViewCell", "projectDescription"]
 - ["CSo15UITableViewCell", "projectLabel"]
+- ["CSo15UITableViewCell", "setCollectionViewDataSourceDelegate"]
 - ["CSo15UITableViewCell", "setSelected"]
 - ["CSo15UITableViewCell", "usersCollectionView"]
 - ["CSo15UITableViewCell", ""]
 - ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "contentOffset"]
 - ["PSo18UITraitEnvironment", "creditRatingCollectionView"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "profileProjectImageView"]
 - ["PSo18UITraitEnvironment", "projectDescription"]
 - ["PSo18UITraitEnvironment", "projectLabel"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- ["PSo18UITraitEnvironment", "setCollectionViewDataSourceDelegate"]
+- !private ["PSo18UITraitEnvironment", "setContentOffset"]
 - ["PSo18UITraitEnvironment", "setSelected"]
+- !private ["PSo18UITraitEnvironment", "tag"]
 - ["PSo18UITraitEnvironment", "usersCollectionView"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Int"]
 - ["CSo6UIView", "UICollectionView"]
+- ["CSo6UIView", "UICollectionViewDataSource"]
+- ["CSo6UIView", "UICollectionViewDelegate"]
 - ["CSo6UIView", "UIImageView"]
 - ["CSo6UIView", "UILabel"]
 - ["CSo6UIView", "UITextView"]
 - ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "contentOffset"]
 - ["CSo6UIView", "creditRatingCollectionView"]
+- !private ["CSo6UIView", "dataSource"]
+- !private ["CSo6UIView", "delegate"]
 - ["CSo6UIView", "init"]
 - ["CSo6UIView", "profileProjectImageView"]
 - ["CSo6UIView", "projectDescription"]
 - ["CSo6UIView", "projectLabel"]
+- !private ["CSo6UIView", "reloadData"]
+- ["CSo6UIView", "setCollectionViewDataSourceDelegate"]
+- !private ["CSo6UIView", "setContentOffset"]
 - ["CSo6UIView", "setSelected"]
+- !private ["CSo6UIView", "tag"]
 - ["CSo6UIView", "usersCollectionView"]
 - ["Ps12_Reflectable", "awakeFromNib"]
+- !private ["Ps12_Reflectable", "contentOffset"]
 - ["Ps12_Reflectable", "creditRatingCollectionView"]
+- !private ["Ps12_Reflectable", "dataSource"]
+- !private ["Ps12_Reflectable", "delegate"]
 - ["Ps12_Reflectable", "init"]
 - ["Ps12_Reflectable", "profileProjectImageView"]
 - ["Ps12_Reflectable", "projectDescription"]
 - ["Ps12_Reflectable", "projectLabel"]
+- !private ["Ps12_Reflectable", "reloadData"]
+- ["Ps12_Reflectable", "setCollectionViewDataSourceDelegate"]
+- !private ["Ps12_Reflectable", "setContentOffset"]
 - ["Ps12_Reflectable", "setSelected"]
+- !private ["Ps12_Reflectable", "tag"]
 - ["Ps12_Reflectable", "usersCollectionView"]
 - ["Ps12_Reflectable", ""]
 depends-nominal:
@@ -256,11 +424,13 @@ depends-nominal:
 - "PSo29UIAccessibilityIdentification"
 - "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
+- !private "CSo16UICollectionView"
 - "PSo17UICoordinateSpace"
 - "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - "PSo27UIGestureRecognizerDelegate"
 - "CSo11UIResponder"
+- !private "CSo12UIScrollView"
 - "CSo15UITableViewCell"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
@@ -275,50 +445,58 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFURL.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFMeasurementEvent.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkTarget.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkResolving.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkNavigation.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLink.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTaskCompletionSource.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTask.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFExecutor.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenSource.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationToken.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/Bolts.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Modules/module.modulemap"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Modules/module.modulemap"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "88c8fa73fef24080cb52a2266c8ddd1c"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFURL.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTask.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/Bolts.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+interface-hash: "209bdc4f6d5b6a68b8354780e49c5f42"

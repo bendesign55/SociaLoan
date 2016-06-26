@@ -7,16 +7,16 @@ provides-member:
 - ["V9Alamofire8Timeline", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CustomStringConvertible"
-- !private "StringLiteralType"
+- "NSTimeInterval"
 - "CustomDebugStringConvertible"
+- !private "StringLiteralType"
+- "CustomStringConvertible"
 - !private "-"
-- "CFAbsoluteTime"
+- "Timeline"
 - "String"
 - !private "Array"
+- "CFAbsoluteTime"
 - "FloatLiteralType"
-- "NSTimeInterval"
-- "Timeline"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sa", "Element"]
@@ -307,8 +307,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/build/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"

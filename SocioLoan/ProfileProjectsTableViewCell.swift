@@ -25,4 +25,19 @@ class ProfileProjectsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+}
+
+extension ProfileProjectsTableViewCell {
+    
+    func setCollectionViewDataSourceDelegate<D: protocol<UICollectionViewDataSource, UICollectionViewDelegate>>(dataSourceDelegate: D, forRow row: Int) {
+        
+        creditRatingCollectionView.delegate = dataSourceDelegate
+        creditRatingCollectionView.dataSource = dataSourceDelegate
+        creditRatingCollectionView.tag = row
+        creditRatingCollectionView.setContentOffset(creditRatingCollectionView.contentOffset, animated:false) // Stops collection view if it was scrolling.
+        creditRatingCollectionView.reloadData()
+}
+
 }

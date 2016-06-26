@@ -1,0 +1,693 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageFilter"
+- "Sizable"
+- "Roundable"
+- "DynamicImageFilter"
+- "CompositeImageFilter"
+- "DynamicCompositeImageFilter"
+- "ScaledToSizeFilter"
+- "AspectScaledToFitSizeFilter"
+- "AspectScaledToFillSizeFilter"
+- "RoundedCornersFilter"
+- "CircleFilter"
+- "BlurFilter"
+- "ScaledToSizeWithRoundedCornersFilter"
+- "AspectScaledToFillSizeWithRoundedCornersFilter"
+- "ScaledToSizeCircleFilter"
+- "AspectScaledToFillSizeCircleFilter"
+provides-nominal:
+- "P14AlamofireImage11ImageFilter"
+- "P14AlamofireImage7Sizable"
+- "P14AlamofireImage9Roundable"
+- "V14AlamofireImage18DynamicImageFilter"
+- "P14AlamofireImage20CompositeImageFilter"
+- "V14AlamofireImage27DynamicCompositeImageFilter"
+- "V14AlamofireImage18ScaledToSizeFilter"
+- "V14AlamofireImage27AspectScaledToFitSizeFilter"
+- "V14AlamofireImage28AspectScaledToFillSizeFilter"
+- "V14AlamofireImage20RoundedCornersFilter"
+- "V14AlamofireImage12CircleFilter"
+- "V14AlamofireImage10BlurFilter"
+- "V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter"
+- "V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter"
+- "V14AlamofireImage24ScaledToSizeCircleFilter"
+- "V14AlamofireImage34AspectScaledToFillSizeCircleFilter"
+provides-member:
+- ["P14AlamofireImage11ImageFilter", ""]
+- ["P14AlamofireImage7Sizable", ""]
+- ["P14AlamofireImage9Roundable", ""]
+- ["V14AlamofireImage18DynamicImageFilter", ""]
+- ["P14AlamofireImage20CompositeImageFilter", ""]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", ""]
+- ["V14AlamofireImage18ScaledToSizeFilter", ""]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", ""]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", ""]
+- ["V14AlamofireImage20RoundedCornersFilter", ""]
+- ["V14AlamofireImage12CircleFilter", ""]
+- ["V14AlamofireImage10BlurFilter", ""]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", ""]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", ""]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", ""]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", ""]
+- ["P14AlamofireImage11ImageFilter", "identifier"]
+- ["P14AlamofireImage11ImageFilter", "identifier"]
+- ["P14AlamofireImage11ImageFilter", "identifier"]
+- ["P14AlamofireImage20CompositeImageFilter", "identifier"]
+- ["P14AlamofireImage20CompositeImageFilter", "filter"]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "AspectScaledToFillSizeWithRoundedCornersFilter"
+- "ScaledToSizeFilter"
+- "Image"
+- "Sizable"
+- "CGFloat"
+- "AspectScaledToFillSizeFilter"
+- "CGSize"
+- "DynamicImageFilter"
+- !private "Int64"
+- !private "Array"
+- "UInt"
+- "Bool"
+- "Dictionary"
+- "ImageFilter"
+- !private "StringLiteralType"
+- "Roundable"
+- "RoundedCornersFilter"
+- "DynamicCompositeImageFilter"
+- !private "UnicodeScalarType"
+- !private "??"
+- !private "round"
+- "ScaledToSizeCircleFilter"
+- "CircleFilter"
+- "CompositeImageFilter"
+- "BlurFilter"
+- "ScaledToSizeWithRoundedCornersFilter"
+- "AspectScaledToFitSizeFilter"
+- "BooleanLiteralType"
+- "AspectScaledToFillSizeCircleFilter"
+depends-member:
+- !private ["Ps9AnyObject", "af_imageAspectScaledToFillSize"]
+- !private ["Ps9AnyObject", "af_imageAspectScaledToFitSize"]
+- !private ["Ps9AnyObject", "af_imageRoundedIntoCircle"]
+- !private ["Ps9AnyObject", "af_imageScaledToSize"]
+- !private ["Ps9AnyObject", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps9AnyObject", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "joinWithSeparator"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "joinWithSeparator"]
+- !private ["Ps23ArrayLiteralConvertible", "map"]
+- !private ["Ps23ArrayLiteralConvertible", "reduce"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "AspectScaledToFillSizeFilter"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "CGSize"]
+- !private ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "CircleFilter"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "ImageFilter"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "deinit"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "filter"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "filters"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "identifier"]
+- ["V14AlamofireImage34AspectScaledToFillSizeCircleFilter", "init"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "CGSize"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "Image"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "deinit"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "filter"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "identifier"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "init"]
+- ["V14AlamofireImage28AspectScaledToFillSizeFilter", "size"]
+- !private ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "AspectScaledToFillSizeFilter"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "Bool"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "CGFloat"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "CGSize"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "ImageFilter"]
+- !private ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "RoundedCornersFilter"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "deinit"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "filter"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "filters"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "identifier"]
+- ["V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter", "init"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "CGSize"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "Image"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "deinit"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "filter"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "identifier"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "init"]
+- ["V14AlamofireImage27AspectScaledToFitSizeFilter", "size"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "init"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "init"]
+- ["V14AlamofireImage10BlurFilter", "Image"]
+- ["V14AlamofireImage10BlurFilter", "UInt"]
+- ["V14AlamofireImage10BlurFilter", "blurRadius"]
+- ["V14AlamofireImage10BlurFilter", "deinit"]
+- ["V14AlamofireImage10BlurFilter", "filter"]
+- ["V14AlamofireImage10BlurFilter", "identifier"]
+- ["V14AlamofireImage10BlurFilter", "init"]
+- !private ["Sb", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "af_imageAspectScaledToFillSize"]
+- !private ["Ps11CVarArgType", "af_imageAspectScaledToFitSize"]
+- !private ["Ps11CVarArgType", "af_imageRoundedIntoCircle"]
+- !private ["Ps11CVarArgType", "af_imageScaledToSize"]
+- !private ["Ps11CVarArgType", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps11CVarArgType", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Vs9Character", "deinit"]
+- ["V14AlamofireImage12CircleFilter", "Image"]
+- ["V14AlamofireImage12CircleFilter", "deinit"]
+- ["V14AlamofireImage12CircleFilter", "filter"]
+- ["V14AlamofireImage12CircleFilter", "identifier"]
+- ["V14AlamofireImage12CircleFilter", "init"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "joinWithSeparator"]
+- !private ["Ps14CollectionType", "map"]
+- !private ["Ps14CollectionType", "reduce"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P14AlamofireImage20CompositeImageFilter", "AspectScaledToFillSizeFilter"]
+- !private ["P14AlamofireImage20CompositeImageFilter", "CircleFilter"]
+- ["P14AlamofireImage20CompositeImageFilter", "Image"]
+- ["P14AlamofireImage20CompositeImageFilter", "ImageFilter"]
+- !private ["P14AlamofireImage20CompositeImageFilter", "RoundedCornersFilter"]
+- !private ["P14AlamofireImage20CompositeImageFilter", "ScaledToSizeFilter"]
+- ["P14AlamofireImage20CompositeImageFilter", "String"]
+- ["P14AlamofireImage20CompositeImageFilter", "filter"]
+- ["P14AlamofireImage20CompositeImageFilter", "filters"]
+- ["P14AlamofireImage20CompositeImageFilter", "identifier"]
+- !private ["P14AlamofireImage20CompositeImageFilter", "init"]
+- ["P14AlamofireImage20CompositeImageFilter", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "af_imageAspectScaledToFillSize"]
+- !private ["Ps28CustomDebugStringConvertible", "af_imageAspectScaledToFitSize"]
+- !private ["Ps28CustomDebugStringConvertible", "af_imageRoundedIntoCircle"]
+- !private ["Ps28CustomDebugStringConvertible", "af_imageScaledToSize"]
+- !private ["Ps28CustomDebugStringConvertible", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps28CustomDebugStringConvertible", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "joinWithSeparator"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "reduce"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "af_imageAspectScaledToFillSize"]
+- !private ["Ps23CustomStringConvertible", "af_imageAspectScaledToFitSize"]
+- !private ["Ps23CustomStringConvertible", "af_imageRoundedIntoCircle"]
+- !private ["Ps23CustomStringConvertible", "af_imageScaledToSize"]
+- !private ["Ps23CustomStringConvertible", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps23CustomStringConvertible", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "joinWithSeparator"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "reduce"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", "ImageFilter"]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", "deinit"]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", "filter"]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", "filters"]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", "identifier"]
+- ["V14AlamofireImage27DynamicCompositeImageFilter", "init"]
+- ["V14AlamofireImage18DynamicImageFilter", "Image"]
+- ["V14AlamofireImage18DynamicImageFilter", "String"]
+- ["V14AlamofireImage18DynamicImageFilter", "deinit"]
+- ["V14AlamofireImage18DynamicImageFilter", "filter"]
+- ["V14AlamofireImage18DynamicImageFilter", "identifier"]
+- ["V14AlamofireImage18DynamicImageFilter", "init"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "af_imageAspectScaledToFillSize"]
+- !private ["Ps9Equatable", "af_imageAspectScaledToFitSize"]
+- !private ["Ps9Equatable", "af_imageRoundedIntoCircle"]
+- !private ["Ps9Equatable", "af_imageScaledToSize"]
+- !private ["Ps9Equatable", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps9Equatable", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "init"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "af_imageAspectScaledToFillSize"]
+- !private ["Ps8Hashable", "af_imageAspectScaledToFitSize"]
+- !private ["Ps8Hashable", "af_imageRoundedIntoCircle"]
+- !private ["Ps8Hashable", "af_imageScaledToSize"]
+- !private ["Ps8Hashable", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps8Hashable", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P14AlamofireImage11ImageFilter", "AspectScaledToFillSizeFilter"]
+- !private ["P14AlamofireImage11ImageFilter", "CircleFilter"]
+- ["P14AlamofireImage11ImageFilter", "Image"]
+- ["P14AlamofireImage11ImageFilter", "ImageFilter"]
+- !private ["P14AlamofireImage11ImageFilter", "Int64"]
+- ["P14AlamofireImage11ImageFilter", "Roundable"]
+- !private ["P14AlamofireImage11ImageFilter", "RoundedCornersFilter"]
+- !private ["P14AlamofireImage11ImageFilter", "ScaledToSizeFilter"]
+- ["P14AlamofireImage11ImageFilter", "Sizable"]
+- ["P14AlamofireImage11ImageFilter", "String"]
+- !private ["P14AlamofireImage11ImageFilter", "blurRadius"]
+- !private ["P14AlamofireImage11ImageFilter", "deinit"]
+- !private ["P14AlamofireImage11ImageFilter", "divideRadiusByImageScale"]
+- ["P14AlamofireImage11ImageFilter", "filter"]
+- ["P14AlamofireImage11ImageFilter", "filters"]
+- ["P14AlamofireImage11ImageFilter", "identifier"]
+- !private ["P14AlamofireImage11ImageFilter", "init"]
+- ["P14AlamofireImage11ImageFilter", "radius"]
+- !private ["P14AlamofireImage11ImageFilter", "round"]
+- ["P14AlamofireImage11ImageFilter", "size"]
+- ["P14AlamofireImage11ImageFilter", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "joinWithSeparator"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps9Indexable", "reduce"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs5Int64", "init"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "init"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "joinWithSeparator"]
+- !private ["Ps21MutableCollectionType", "map"]
+- !private ["Ps21MutableCollectionType", "reduce"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "joinWithSeparator"]
+- !private ["Ps16MutableIndexable", "map"]
+- !private ["Ps16MutableIndexable", "reduce"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "joinWithSeparator"]
+- !private ["Ps16MutableSliceable", "map"]
+- !private ["Ps16MutableSliceable", "reduce"]
+- !private ["PSo8NSCoding", "af_imageAspectScaledToFillSize"]
+- !private ["PSo8NSCoding", "af_imageAspectScaledToFitSize"]
+- !private ["PSo8NSCoding", "af_imageRoundedIntoCircle"]
+- !private ["PSo8NSCoding", "af_imageScaledToSize"]
+- !private ["PSo8NSCoding", "af_imageWithAppliedCoreImageFilter"]
+- !private ["PSo8NSCoding", "af_imageWithRoundedCornerRadius"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "af_imageAspectScaledToFillSize"]
+- !private ["CSo8NSObject", "af_imageAspectScaledToFitSize"]
+- !private ["CSo8NSObject", "af_imageRoundedIntoCircle"]
+- !private ["CSo8NSObject", "af_imageScaledToSize"]
+- !private ["CSo8NSObject", "af_imageWithAppliedCoreImageFilter"]
+- !private ["CSo8NSObject", "af_imageWithRoundedCornerRadius"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "af_imageAspectScaledToFillSize"]
+- !private ["PSo16NSObjectProtocol", "af_imageAspectScaledToFitSize"]
+- !private ["PSo16NSObjectProtocol", "af_imageRoundedIntoCircle"]
+- !private ["PSo16NSObjectProtocol", "af_imageScaledToSize"]
+- !private ["PSo16NSObjectProtocol", "af_imageWithAppliedCoreImageFilter"]
+- !private ["PSo16NSObjectProtocol", "af_imageWithRoundedCornerRadius"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "af_imageAspectScaledToFillSize"]
+- !private ["PSo14NSSecureCoding", "af_imageAspectScaledToFitSize"]
+- !private ["PSo14NSSecureCoding", "af_imageRoundedIntoCircle"]
+- !private ["PSo14NSSecureCoding", "af_imageScaledToSize"]
+- !private ["PSo14NSSecureCoding", "af_imageWithAppliedCoreImageFilter"]
+- !private ["PSo14NSSecureCoding", "af_imageWithRoundedCornerRadius"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "joinWithSeparator"]
+- !private ["Ps30RangeReplaceableCollectionType", "map"]
+- !private ["Ps30RangeReplaceableCollectionType", "reduce"]
+- ["P14AlamofireImage9Roundable", "CGFloat"]
+- !private ["P14AlamofireImage9Roundable", "Int64"]
+- ["P14AlamofireImage9Roundable", "String"]
+- !private ["P14AlamofireImage9Roundable", "divideRadiusByImageScale"]
+- ["P14AlamofireImage9Roundable", "filter"]
+- ["P14AlamofireImage9Roundable", "identifier"]
+- !private ["P14AlamofireImage9Roundable", "init"]
+- ["P14AlamofireImage9Roundable", "radius"]
+- !private ["P14AlamofireImage9Roundable", "round"]
+- ["P14AlamofireImage9Roundable", ""]
+- ["V14AlamofireImage20RoundedCornersFilter", "Bool"]
+- ["V14AlamofireImage20RoundedCornersFilter", "CGFloat"]
+- ["V14AlamofireImage20RoundedCornersFilter", "Image"]
+- !private ["V14AlamofireImage20RoundedCornersFilter", "Int64"]
+- ["V14AlamofireImage20RoundedCornersFilter", "String"]
+- ["V14AlamofireImage20RoundedCornersFilter", "deinit"]
+- ["V14AlamofireImage20RoundedCornersFilter", "divideRadiusByImageScale"]
+- ["V14AlamofireImage20RoundedCornersFilter", "filter"]
+- ["V14AlamofireImage20RoundedCornersFilter", "identifier"]
+- ["V14AlamofireImage20RoundedCornersFilter", "init"]
+- ["V14AlamofireImage20RoundedCornersFilter", "radius"]
+- !private ["V14AlamofireImage20RoundedCornersFilter", "round"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "CGSize"]
+- !private ["V14AlamofireImage24ScaledToSizeCircleFilter", "CircleFilter"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "ImageFilter"]
+- !private ["V14AlamofireImage24ScaledToSizeCircleFilter", "ScaledToSizeFilter"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "deinit"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "filter"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "filters"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "identifier"]
+- ["V14AlamofireImage24ScaledToSizeCircleFilter", "init"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "CGSize"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "Image"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "deinit"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "filter"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "identifier"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "init"]
+- ["V14AlamofireImage18ScaledToSizeFilter", "size"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "Bool"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "CGFloat"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "CGSize"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "ImageFilter"]
+- !private ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "RoundedCornersFilter"]
+- !private ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "ScaledToSizeFilter"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "deinit"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "filter"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "filters"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "identifier"]
+- ["V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "joinWithSeparator"]
+- !private ["Ps12SequenceType", "map"]
+- !private ["Ps12SequenceType", "reduce"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "init"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- ["P14AlamofireImage7Sizable", "CGSize"]
+- !private ["P14AlamofireImage7Sizable", "Int64"]
+- ["P14AlamofireImage7Sizable", "String"]
+- ["P14AlamofireImage7Sizable", "filter"]
+- ["P14AlamofireImage7Sizable", "identifier"]
+- !private ["P14AlamofireImage7Sizable", "init"]
+- !private ["P14AlamofireImage7Sizable", "round"]
+- ["P14AlamofireImage7Sizable", "size"]
+- ["P14AlamofireImage7Sizable", ""]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "af_imageAspectScaledToFillSize"]
+- !private ["PSo29UIAccessibilityIdentification", "af_imageAspectScaledToFitSize"]
+- !private ["PSo29UIAccessibilityIdentification", "af_imageRoundedIntoCircle"]
+- !private ["PSo29UIAccessibilityIdentification", "af_imageScaledToSize"]
+- !private ["PSo29UIAccessibilityIdentification", "af_imageWithAppliedCoreImageFilter"]
+- !private ["PSo29UIAccessibilityIdentification", "af_imageWithRoundedCornerRadius"]
+- !private ["CSo7UIImage", "af_imageAspectScaledToFillSize"]
+- !private ["CSo7UIImage", "af_imageAspectScaledToFitSize"]
+- !private ["CSo7UIImage", "af_imageRoundedIntoCircle"]
+- !private ["CSo7UIImage", "af_imageScaledToSize"]
+- !private ["CSo7UIImage", "af_imageWithAppliedCoreImageFilter"]
+- !private ["CSo7UIImage", "af_imageWithRoundedCornerRadius"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "joinWithSeparator"]
+- !private ["Ps10_ArrayType", "map"]
+- !private ["Ps10_ArrayType", "reduce"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "joinWithSeparator"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps24_DestructorSafeContainer", "reduce"]
+- !private ["Ps24_ImageLiteralConvertible", "af_imageAspectScaledToFillSize"]
+- !private ["Ps24_ImageLiteralConvertible", "af_imageAspectScaledToFitSize"]
+- !private ["Ps24_ImageLiteralConvertible", "af_imageRoundedIntoCircle"]
+- !private ["Ps24_ImageLiteralConvertible", "af_imageScaledToSize"]
+- !private ["Ps24_ImageLiteralConvertible", "af_imageWithAppliedCoreImageFilter"]
+- !private ["Ps24_ImageLiteralConvertible", "af_imageWithRoundedCornerRadius"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "init"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "joinWithSeparator"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "reduce"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "init"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "joinWithSeparator"]
+- !private ["Ps12_Reflectable", "map"]
+- !private ["Ps12_Reflectable", "reduce"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- "V14AlamofireImage34AspectScaledToFillSizeCircleFilter"
+- "V14AlamofireImage28AspectScaledToFillSizeFilter"
+- "V14AlamofireImage46AspectScaledToFillSizeWithRoundedCornersFilter"
+- "V14AlamofireImage27AspectScaledToFitSizeFilter"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "V14AlamofireImage10BlurFilter"
+- !private "Sb"
+- !private "VSC6CGSize"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- "V14AlamofireImage12CircleFilter"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "P14AlamofireImage20CompositeImageFilter"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "V14AlamofireImage27DynamicCompositeImageFilter"
+- "V14AlamofireImage18DynamicImageFilter"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- "P14AlamofireImage11ImageFilter"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- "P14AlamofireImage9Roundable"
+- "V14AlamofireImage20RoundedCornersFilter"
+- "V14AlamofireImage24ScaledToSizeCircleFilter"
+- "V14AlamofireImage18ScaledToSizeFilter"
+- "V14AlamofireImage36ScaledToSizeWithRoundedCornersFilter"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- "P14AlamofireImage7Sizable"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphoneos/AlamofireImage.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+interface-hash: "98f7560c692e50eed9f22a0d5aefd3c9"

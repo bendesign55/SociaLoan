@@ -10,5 +10,6 @@ target 'SocioLoan' do
 
   
   	pod 'Alamofire', '~> 3.0'
-
+  	pod 'AlamofireImage', '~> 2.2'
+	
 end

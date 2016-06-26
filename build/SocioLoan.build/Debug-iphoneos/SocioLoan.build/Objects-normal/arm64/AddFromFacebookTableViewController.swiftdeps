@@ -1,0 +1,791 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddFromFacebookTableViewController"
+provides-nominal:
+- "C9SocioLoan34AddFromFacebookTableViewController"
+provides-member:
+- ["C9SocioLoan34AddFromFacebookTableViewController", ""]
+provides-dynamic-lookup:
+- "numberOfSectionsInTableView"
+- "profilePictureUrl"
+- "cancel"
+- "done"
+- "tableView"
+- "tableView"
+- "searchController"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "names"
+depends-top-level:
+- "String"
+- !private "FBSDKGraphRequest"
+- !private "!="
+- !private "Void"
+- "UITableViewCell"
+- !private "print"
+- !private "StringLiteralType"
+- "UITableView"
+- "UITableViewController"
+- !private "UnicodeScalarType"
+- !private "AddFromFacebookTableViewCell"
+- "Int"
+- !private "UIBarButtonItemStyle"
+- !private "UIBarButtonItem"
+- "UISearchController"
+- "NSIndexPath"
+- "AddFromFacebookTableViewController"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+depends-member:
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "AddFromFacebookTableViewCell"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "AddFromFacebookTableViewController"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "FBSDKGraphRequest"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "Int"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "NSIndexPath"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "String"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "UIBarButtonItem"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "UIBarButtonItemStyle"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "UISearchController"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "UITableView"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "UITableViewCell"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "Void"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "cancel"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "definesPresentationContext"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "deinit"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "didReceiveMemoryWarning"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "dismissViewControllerAnimated"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "done"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "init"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "names"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "navigationItem"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "numberOfSectionsInTableView"]
+- !private ["C9SocioLoan34AddFromFacebookTableViewController", "print"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "profilePictureUrl"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "searchController"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "tableView"]
+- ["C9SocioLoan34AddFromFacebookTableViewController", "viewDidLoad"]
+- !private ["Ps9AnyObject", "AddFromFacebookTableViewController"]
+- !private ["Ps9AnyObject", "FBSDKGraphRequest"]
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "UIBarButtonItemStyle"]
+- ["Ps9AnyObject", "UISearchController"]
+- ["Ps9AnyObject", "cancel"]
+- !private ["Ps9AnyObject", "definesPresentationContext"]
+- !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dimsBackgroundDuringPresentation"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- ["Ps9AnyObject", "done"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "leftBarButtonItem"]
+- ["Ps9AnyObject", "names"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- ["Ps9AnyObject", "numberOfSectionsInTableView"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "profilePictureUrl"]
+- !private ["Ps9AnyObject", "rightBarButtonItem"]
+- !private ["Ps9AnyObject", "searchBar"]
+- ["Ps9AnyObject", "searchController"]
+- !private ["Ps9AnyObject", "startWithCompletionHandler"]
+- !private ["Ps9AnyObject", "tableHeaderView"]
+- ["Ps9AnyObject", "tableView"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "AddFromFacebookTableViewController"]
+- !private ["Ps11CVarArgType", "FBSDKGraphRequest"]
+- !private ["Ps11CVarArgType", "UIBarButtonItem"]
+- !private ["Ps11CVarArgType", "UIBarButtonItemStyle"]
+- ["Ps11CVarArgType", "UISearchController"]
+- ["Ps11CVarArgType", "cancel"]
+- !private ["Ps11CVarArgType", "definesPresentationContext"]
+- !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "dimsBackgroundDuringPresentation"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- ["Ps11CVarArgType", "done"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "leftBarButtonItem"]
+- ["Ps11CVarArgType", "names"]
+- !private ["Ps11CVarArgType", "navigationItem"]
+- ["Ps11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "profilePictureUrl"]
+- !private ["Ps11CVarArgType", "rightBarButtonItem"]
+- !private ["Ps11CVarArgType", "searchBar"]
+- ["Ps11CVarArgType", "searchController"]
+- !private ["Ps11CVarArgType", "startWithCompletionHandler"]
+- !private ["Ps11CVarArgType", "tableHeaderView"]
+- ["Ps11CVarArgType", "tableView"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "AddFromFacebookTableViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKGraphRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItemStyle"]
+- ["Ps28CustomDebugStringConvertible", "UISearchController"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "cancel"]
+- !private ["Ps28CustomDebugStringConvertible", "definesPresentationContext"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dimsBackgroundDuringPresentation"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "done"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "leftBarButtonItem"]
+- ["Ps28CustomDebugStringConvertible", "names"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "profilePictureUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "rightBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "searchBar"]
+- ["Ps28CustomDebugStringConvertible", "searchController"]
+- !private ["Ps28CustomDebugStringConvertible", "startWithCompletionHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "tableHeaderView"]
+- ["Ps28CustomDebugStringConvertible", "tableView"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "AddFromFacebookTableViewController"]
+- !private ["Ps23CustomStringConvertible", "FBSDKGraphRequest"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItemStyle"]
+- ["Ps23CustomStringConvertible", "UISearchController"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "cancel"]
+- !private ["Ps23CustomStringConvertible", "definesPresentationContext"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dimsBackgroundDuringPresentation"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "done"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "leftBarButtonItem"]
+- ["Ps23CustomStringConvertible", "names"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "profilePictureUrl"]
+- !private ["Ps23CustomStringConvertible", "rightBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "searchBar"]
+- ["Ps23CustomStringConvertible", "searchController"]
+- !private ["Ps23CustomStringConvertible", "startWithCompletionHandler"]
+- !private ["Ps23CustomStringConvertible", "tableHeaderView"]
+- ["Ps23CustomStringConvertible", "tableView"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps9Equatable", "AddFromFacebookTableViewController"]
+- !private ["Ps9Equatable", "Done"]
+- !private ["Ps9Equatable", "FBSDKGraphRequest"]
+- !private ["Ps9Equatable", "Plain"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "UIBarButtonItemStyle"]
+- ["Ps9Equatable", "UISearchController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "cancel"]
+- !private ["Ps9Equatable", "definesPresentationContext"]
+- !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dimsBackgroundDuringPresentation"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- ["Ps9Equatable", "done"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "leftBarButtonItem"]
+- ["Ps9Equatable", "names"]
+- !private ["Ps9Equatable", "navigationItem"]
+- ["Ps9Equatable", "numberOfSectionsInTableView"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "profilePictureUrl"]
+- !private ["Ps9Equatable", "rightBarButtonItem"]
+- !private ["Ps9Equatable", "searchBar"]
+- ["Ps9Equatable", "searchController"]
+- !private ["Ps9Equatable", "startWithCompletionHandler"]
+- !private ["Ps9Equatable", "tableHeaderView"]
+- ["Ps9Equatable", "tableView"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["CSo17FBSDKGraphRequest", "init"]
+- !private ["CSo17FBSDKGraphRequest", "startWithCompletionHandler"]
+- !private ["Ps8Hashable", "AddFromFacebookTableViewController"]
+- !private ["Ps8Hashable", "Done"]
+- !private ["Ps8Hashable", "FBSDKGraphRequest"]
+- !private ["Ps8Hashable", "Plain"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "UIBarButtonItemStyle"]
+- ["Ps8Hashable", "UISearchController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "cancel"]
+- !private ["Ps8Hashable", "definesPresentationContext"]
+- !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dimsBackgroundDuringPresentation"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- ["Ps8Hashable", "done"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "leftBarButtonItem"]
+- ["Ps8Hashable", "names"]
+- !private ["Ps8Hashable", "navigationItem"]
+- ["Ps8Hashable", "numberOfSectionsInTableView"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "profilePictureUrl"]
+- !private ["Ps8Hashable", "rightBarButtonItem"]
+- !private ["Ps8Hashable", "searchBar"]
+- ["Ps8Hashable", "searchController"]
+- !private ["Ps8Hashable", "startWithCompletionHandler"]
+- !private ["Ps8Hashable", "tableHeaderView"]
+- ["Ps8Hashable", "tableView"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["PSo8NSCoding", "AddFromFacebookTableViewController"]
+- !private ["PSo8NSCoding", "FBSDKGraphRequest"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "UIBarButtonItemStyle"]
+- ["PSo8NSCoding", "UISearchController"]
+- ["PSo8NSCoding", "cancel"]
+- !private ["PSo8NSCoding", "definesPresentationContext"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dimsBackgroundDuringPresentation"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "done"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "leftBarButtonItem"]
+- ["PSo8NSCoding", "names"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "profilePictureUrl"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
+- !private ["PSo8NSCoding", "searchBar"]
+- ["PSo8NSCoding", "searchController"]
+- !private ["PSo8NSCoding", "tableHeaderView"]
+- ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo7NSError", "deinit"]
+- !private ["PSo26NSExtensionRequestHandling", "AddFromFacebookTableViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKGraphRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItemStyle"]
+- ["PSo26NSExtensionRequestHandling", "UISearchController"]
+- ["PSo26NSExtensionRequestHandling", "cancel"]
+- !private ["PSo26NSExtensionRequestHandling", "definesPresentationContext"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dimsBackgroundDuringPresentation"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "done"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "names"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "profilePictureUrl"]
+- !private ["PSo26NSExtensionRequestHandling", "searchBar"]
+- ["PSo26NSExtensionRequestHandling", "searchController"]
+- ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "AddFromFacebookTableViewCell"]
+- !private ["CSo8NSObject", "AddFromFacebookTableViewController"]
+- !private ["CSo8NSObject", "FBSDKGraphRequest"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIBarButtonItemStyle"]
+- ["CSo8NSObject", "UISearchController"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "cancel"]
+- !private ["CSo8NSObject", "definesPresentationContext"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dimsBackgroundDuringPresentation"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "done"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "leftBarButtonItem"]
+- ["CSo8NSObject", "names"]
+- !private ["CSo8NSObject", "navigationItem"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "profilePictureUrl"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
+- !private ["CSo8NSObject", "searchBar"]
+- ["CSo8NSObject", "searchController"]
+- !private ["CSo8NSObject", "startWithCompletionHandler"]
+- !private ["CSo8NSObject", "tableHeaderView"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AddFromFacebookTableViewController"]
+- !private ["PSo16NSObjectProtocol", "FBSDKGraphRequest"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItemStyle"]
+- ["PSo16NSObjectProtocol", "UISearchController"]
+- ["PSo16NSObjectProtocol", "cancel"]
+- !private ["PSo16NSObjectProtocol", "definesPresentationContext"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dimsBackgroundDuringPresentation"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "done"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "leftBarButtonItem"]
+- ["PSo16NSObjectProtocol", "names"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "profilePictureUrl"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "searchBar"]
+- ["PSo16NSObjectProtocol", "searchController"]
+- !private ["PSo16NSObjectProtocol", "startWithCompletionHandler"]
+- !private ["PSo16NSObjectProtocol", "tableHeaderView"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Done"]
+- !private ["Ps16RawRepresentable", "Plain"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "tableHeaderView"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "tableHeaderView"]
+- !private ["PSo21UIAppearanceContainer", "AddFromFacebookTableViewController"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKGraphRequest"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItemStyle"]
+- ["PSo21UIAppearanceContainer", "UISearchController"]
+- ["PSo21UIAppearanceContainer", "cancel"]
+- !private ["PSo21UIAppearanceContainer", "definesPresentationContext"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dimsBackgroundDuringPresentation"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "done"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "names"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "profilePictureUrl"]
+- !private ["PSo21UIAppearanceContainer", "searchBar"]
+- ["PSo21UIAppearanceContainer", "searchController"]
+- !private ["PSo21UIAppearanceContainer", "tableHeaderView"]
+- ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "init"]
+- !private ["OSC20UIBarButtonItemStyle", "Done"]
+- !private ["OSC20UIBarButtonItemStyle", "Plain"]
+- !private ["CSo9UIBarItem", "init"]
+- !private ["PSo18UIContentContainer", "AddFromFacebookTableViewController"]
+- !private ["PSo18UIContentContainer", "FBSDKGraphRequest"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItemStyle"]
+- ["PSo18UIContentContainer", "UISearchController"]
+- ["PSo18UIContentContainer", "cancel"]
+- !private ["PSo18UIContentContainer", "definesPresentationContext"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dimsBackgroundDuringPresentation"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "done"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "names"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "profilePictureUrl"]
+- !private ["PSo18UIContentContainer", "searchBar"]
+- ["PSo18UIContentContainer", "searchController"]
+- ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo17UICoordinateSpace", "tableHeaderView"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "tableHeaderView"]
+- !private ["PSo18UIFocusEnvironment", "AddFromFacebookTableViewController"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKGraphRequest"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItemStyle"]
+- ["PSo18UIFocusEnvironment", "UISearchController"]
+- ["PSo18UIFocusEnvironment", "cancel"]
+- !private ["PSo18UIFocusEnvironment", "definesPresentationContext"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithIdentifier"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dimsBackgroundDuringPresentation"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "done"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "names"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "profilePictureUrl"]
+- !private ["PSo18UIFocusEnvironment", "searchBar"]
+- ["PSo18UIFocusEnvironment", "searchController"]
+- !private ["PSo18UIFocusEnvironment", "tableHeaderView"]
+- ["PSo18UIFocusEnvironment", "tableView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo16UINavigationItem", "leftBarButtonItem"]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
+- !private ["CSo11UIResponder", "AddFromFacebookTableViewCell"]
+- !private ["CSo11UIResponder", "AddFromFacebookTableViewController"]
+- !private ["CSo11UIResponder", "FBSDKGraphRequest"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIBarButtonItemStyle"]
+- ["CSo11UIResponder", "UISearchController"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "cancel"]
+- !private ["CSo11UIResponder", "definesPresentationContext"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dimsBackgroundDuringPresentation"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "done"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "names"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "profilePictureUrl"]
+- !private ["CSo11UIResponder", "searchBar"]
+- ["CSo11UIResponder", "searchController"]
+- !private ["CSo11UIResponder", "tableHeaderView"]
+- ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo12UIScrollView", "tableHeaderView"]
+- !private ["PSo20UIScrollViewDelegate", "AddFromFacebookTableViewController"]
+- !private ["PSo20UIScrollViewDelegate", "FBSDKGraphRequest"]
+- !private ["PSo20UIScrollViewDelegate", "UIBarButtonItem"]
+- !private ["PSo20UIScrollViewDelegate", "UIBarButtonItemStyle"]
+- ["PSo20UIScrollViewDelegate", "UISearchController"]
+- ["PSo20UIScrollViewDelegate", "cancel"]
+- !private ["PSo20UIScrollViewDelegate", "definesPresentationContext"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo20UIScrollViewDelegate", "dismissViewControllerAnimated"]
+- ["PSo20UIScrollViewDelegate", "done"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "names"]
+- !private ["PSo20UIScrollViewDelegate", "navigationItem"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo20UIScrollViewDelegate", "print"]
+- ["PSo20UIScrollViewDelegate", "profilePictureUrl"]
+- ["PSo20UIScrollViewDelegate", "searchController"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["CSo18UISearchController", "dimsBackgroundDuringPresentation"]
+- ["CSo18UISearchController", "init"]
+- !private ["CSo18UISearchController", "searchBar"]
+- !private ["PSo16UIStateRestoring", "AddFromFacebookTableViewController"]
+- !private ["PSo16UIStateRestoring", "FBSDKGraphRequest"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItemStyle"]
+- ["PSo16UIStateRestoring", "UISearchController"]
+- ["PSo16UIStateRestoring", "cancel"]
+- !private ["PSo16UIStateRestoring", "definesPresentationContext"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dimsBackgroundDuringPresentation"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "done"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "names"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "profilePictureUrl"]
+- !private ["PSo16UIStateRestoring", "searchBar"]
+- ["PSo16UIStateRestoring", "searchController"]
+- ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo11UITableView", "tableHeaderView"]
+- !private ["CSo15UITableViewCell", "deinit"]
+- !private ["CSo21UITableViewController", "AddFromFacebookTableViewCell"]
+- !private ["CSo21UITableViewController", "AddFromFacebookTableViewController"]
+- !private ["CSo21UITableViewController", "FBSDKGraphRequest"]
+- ["CSo21UITableViewController", "Int"]
+- ["CSo21UITableViewController", "NSIndexPath"]
+- ["CSo21UITableViewController", "String"]
+- !private ["CSo21UITableViewController", "UIBarButtonItem"]
+- !private ["CSo21UITableViewController", "UIBarButtonItemStyle"]
+- ["CSo21UITableViewController", "UISearchController"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "UITableViewCell"]
+- !private ["CSo21UITableViewController", "Void"]
+- ["CSo21UITableViewController", "cancel"]
+- !private ["CSo21UITableViewController", "definesPresentationContext"]
+- ["CSo21UITableViewController", "didReceiveMemoryWarning"]
+- !private ["CSo21UITableViewController", "dismissViewControllerAnimated"]
+- ["CSo21UITableViewController", "done"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "names"]
+- !private ["CSo21UITableViewController", "navigationItem"]
+- ["CSo21UITableViewController", "numberOfSectionsInTableView"]
+- !private ["CSo21UITableViewController", "print"]
+- ["CSo21UITableViewController", "profilePictureUrl"]
+- ["CSo21UITableViewController", "searchController"]
+- ["CSo21UITableViewController", "tableView"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "AddFromFacebookTableViewController"]
+- !private ["PSo21UITableViewDataSource", "FBSDKGraphRequest"]
+- !private ["PSo21UITableViewDataSource", "UIBarButtonItem"]
+- !private ["PSo21UITableViewDataSource", "UIBarButtonItemStyle"]
+- ["PSo21UITableViewDataSource", "UISearchController"]
+- ["PSo21UITableViewDataSource", "cancel"]
+- !private ["PSo21UITableViewDataSource", "definesPresentationContext"]
+- ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- !private ["PSo21UITableViewDataSource", "dismissViewControllerAnimated"]
+- ["PSo21UITableViewDataSource", "done"]
+- ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "names"]
+- !private ["PSo21UITableViewDataSource", "navigationItem"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- !private ["PSo21UITableViewDataSource", "print"]
+- ["PSo21UITableViewDataSource", "profilePictureUrl"]
+- ["PSo21UITableViewDataSource", "searchController"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "AddFromFacebookTableViewController"]
+- !private ["PSo19UITableViewDelegate", "FBSDKGraphRequest"]
+- !private ["PSo19UITableViewDelegate", "UIBarButtonItem"]
+- !private ["PSo19UITableViewDelegate", "UIBarButtonItemStyle"]
+- ["PSo19UITableViewDelegate", "UISearchController"]
+- ["PSo19UITableViewDelegate", "cancel"]
+- !private ["PSo19UITableViewDelegate", "definesPresentationContext"]
+- ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- !private ["PSo19UITableViewDelegate", "dismissViewControllerAnimated"]
+- ["PSo19UITableViewDelegate", "done"]
+- ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "names"]
+- !private ["PSo19UITableViewDelegate", "navigationItem"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- !private ["PSo19UITableViewDelegate", "print"]
+- ["PSo19UITableViewDelegate", "profilePictureUrl"]
+- ["PSo19UITableViewDelegate", "searchController"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "AddFromFacebookTableViewController"]
+- !private ["PSo18UITraitEnvironment", "FBSDKGraphRequest"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItemStyle"]
+- ["PSo18UITraitEnvironment", "UISearchController"]
+- ["PSo18UITraitEnvironment", "cancel"]
+- !private ["PSo18UITraitEnvironment", "definesPresentationContext"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dimsBackgroundDuringPresentation"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "done"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "names"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "profilePictureUrl"]
+- !private ["PSo18UITraitEnvironment", "searchBar"]
+- ["PSo18UITraitEnvironment", "searchController"]
+- !private ["PSo18UITraitEnvironment", "tableHeaderView"]
+- ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo6UIView", "tableHeaderView"]
+- !private ["CSo16UIViewController", "AddFromFacebookTableViewCell"]
+- !private ["CSo16UIViewController", "AddFromFacebookTableViewController"]
+- !private ["CSo16UIViewController", "FBSDKGraphRequest"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSIndexPath"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UIBarButtonItemStyle"]
+- ["CSo16UIViewController", "UISearchController"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "cancel"]
+- !private ["CSo16UIViewController", "definesPresentationContext"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dimsBackgroundDuringPresentation"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "done"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "names"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "profilePictureUrl"]
+- !private ["CSo16UIViewController", "searchBar"]
+- ["CSo16UIViewController", "searchController"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "dimsBackgroundDuringPresentation"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "init"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "searchBar"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "dimsBackgroundDuringPresentation"]
+- ["PSo37UIViewControllerTransitioningDelegate", "init"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "searchBar"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["Ps12_Reflectable", "tableHeaderView"]
+depends-nominal:
+- "C9SocioLoan34AddFromFacebookTableViewController"
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "CSo17FBSDKGraphRequest"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- "PSo8NSCoding"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "OSC20UIBarButtonItemStyle"
+- !private "CSo9UIBarItem"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "CSo18UISearchController"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "PSo37UIViewControllerAnimatedTransitioning"
+- "PSo37UIViewControllerTransitioningDelegate"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFURL.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTask.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/Bolts.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/Bolts.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/benormos/Documents/iOS development/Swift/SociaLoan/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+interface-hash: "2cc1553f5986550d9668484d938355bb"
