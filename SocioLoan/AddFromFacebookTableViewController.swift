@@ -27,14 +27,7 @@ class AddFromFacebookTableViewController: UITableViewController {
                 return
             }
             
-            if let data = request as? NSDictionary {
-                for user in data {
-                    if let name = user["name"] {
                         
-                    }
-                }
-            }
-            
         })
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(AddFromFacebookTableViewController.cancel))
