@@ -6,18 +6,17 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan20ExploreTableViewCell", ""]
 provides-dynamic-lookup:
-- "nameOfProject"
+- "setSelected"
 - "nameOfPerson"
 - "profileImage"
-- "awakeFromNib"
-- "setSelected"
 - "amount"
+- "awakeFromNib"
+- "nameOfProject"
 depends-top-level:
-- "Bool"
+- "ExploreTableViewCell"
 - "UIImageView"
 - "UILabel"
-- "UIButton"
-- "ExploreTableViewCell"
+- "Bool"
 - "UITableViewCell"
 depends-member:
 - ["Ps9AnyObject", "amount"]
@@ -61,7 +60,6 @@ depends-member:
 - ["Ps9Equatable", "setSelected"]
 - ["Ps9Equatable", ""]
 - ["C9SocioLoan20ExploreTableViewCell", "Bool"]
-- ["C9SocioLoan20ExploreTableViewCell", "UIButton"]
 - ["C9SocioLoan20ExploreTableViewCell", "UIImageView"]
 - ["C9SocioLoan20ExploreTableViewCell", "UILabel"]
 - ["C9SocioLoan20ExploreTableViewCell", "amount"]
@@ -89,7 +87,6 @@ depends-member:
 - ["PSo8NSCoding", "setSelected"]
 - ["PSo8NSCoding", ""]
 - ["CSo8NSObject", "Bool"]
-- ["CSo8NSObject", "UIButton"]
 - ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "amount"]
@@ -164,7 +161,6 @@ depends-member:
 - ["PSo27UIGestureRecognizerDelegate", "setSelected"]
 - ["PSo27UIGestureRecognizerDelegate", ""]
 - ["CSo11UIResponder", "Bool"]
-- ["CSo11UIResponder", "UIButton"]
 - ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "amount"]
@@ -175,7 +171,6 @@ depends-member:
 - ["CSo11UIResponder", "profileImage"]
 - ["CSo11UIResponder", "setSelected"]
 - ["CSo15UITableViewCell", "Bool"]
-- ["CSo15UITableViewCell", "UIButton"]
 - ["CSo15UITableViewCell", "UIImageView"]
 - ["CSo15UITableViewCell", "UILabel"]
 - ["CSo15UITableViewCell", "amount"]
@@ -195,7 +190,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "setSelected"]
 - ["PSo18UITraitEnvironment", ""]
 - ["CSo6UIView", "Bool"]
-- ["CSo6UIView", "UIButton"]
 - ["CSo6UIView", "UIImageView"]
 - ["CSo6UIView", "UILabel"]
 - ["CSo6UIView", "amount"]
@@ -292,4 +286,4 @@ depends-external:
 - "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
 - "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Modules/module.modulemap"
-interface-hash: "219f51f4901841e95c00846543b81a68"
+interface-hash: "85bc8161c38e5f85486735ce1e6f3eba"

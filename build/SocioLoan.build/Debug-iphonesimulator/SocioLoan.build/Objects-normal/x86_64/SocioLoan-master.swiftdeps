@@ -1,11 +1,13 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
-options: "22daf71fd68d091411992d7546b38ee2"
-build_time: [520228745, 436745000]
+options: "f834e0a7d0a573cb2f4a3e1eb4e78b66"
+build_time: [520232956, 676293000]
 inputs:
-  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ExploreTableViewController.swift": [520204417, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ProfileProjectsTableViewCell.swift": [520206930, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ProfileViewController.swift": [520210455, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ExploreTableViewController.swift": [520228960, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ProfileProjectsTableViewCell.swift": [520232735, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/ProfilesCollectionView.swift": [520232764, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ProfileViewController.swift": [520230842, 0]
   "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/AppDelegate.swift": [520181261, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ExploreTableViewCell.swift": [520189551, 0]
-  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/LoginViewController.swift": [520204417, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/ExploreTableViewCell.swift": [520228923, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/LoginViewController.swift": [520228923, 0]
   "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/AddProjectViewController.swift": [520190327, 0]
+  "/Users/benormos/Documents/iOS development/Swift/SocioLoan/SocioLoan/CreditRatingCollectionView.swift": [520232749, 0]
