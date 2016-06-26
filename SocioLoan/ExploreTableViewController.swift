@@ -11,55 +11,53 @@ import FBSDKCoreKit
 
 
 class ExploreTableViewController: UITableViewController {
-
     
-    // For more complex open graph stories, use `FBSDKShareAPI`
-    // with `FBSDKShareOpenGraphContent`
-    /* make the API call */
-//    var request = FBSDKGraphRequest()
-//    initWithGraphPath:@"/{friend-list-id}"
-//    parameters:params
-//    HTTPMethod:@"GET"];
-//    [request startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection,
-//    id result,
-//    NSError *error) {
-//    // Handle the result
-//    }];
+    struct exploreCell {
+        let nameOfPerson: String
+        let nameOfProject: String
+        let image: UIImage
+        let amount: String
+    }
+    
+    let cells = [exploreCell(nameOfPerson: "P", nameOfProject: "Making a porn video", image: UIImage(named: "dickbut")!, amount: "$5000"),
+                 exploreCell(nameOfPerson: "I", nameOfProject: "Making a lots of porn videos", image: UIImage(named: "dickbut")!, amount: "$6900"),
+                 exploreCell(nameOfPerson: "N", nameOfProject: "Making the best porn video", image: UIImage(named: "dickbut")!, amount: "$69000"),
+                 exploreCell(nameOfPerson: "Á", nameOfProject: "Making a porn video website", image: UIImage(named: "dickbut")!, amount: "$690000"),
+                 exploreCell(nameOfPerson: "K", nameOfProject: "Simple prostitution", image: UIImage(named: "dickbut")!, amount: "$69")]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        
+        let parameters = ["fields": "name,picture.type(normal)", "limit": "5"]
+        FBSDKGraphRequest(graphPath: "me/taggable_friends", parameters: parameters).startWithCompletionHandler({ (connection, user, requestError) -> Void in
+            if requestError != nil {
+                print(requestError)
+                return
+            }
+            
+            print(user)
+        })
+    }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return cells.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("ExploreRowID", forIndexPath: indexPath) as! ExploreTableViewCell
-        
+        cell.nameOfPerson.text = cells[indexPath.row].nameOfPerson
+        cell.nameOfProject.text = cells[indexPath.row].nameOfProject
+        cell.profileImage.image = cells[indexPath.row].image
+        cell.amount.text = cells[indexPath.row].amount
         return cell
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    
-        let s = FBSDKGraphRequest(graphPath: "me/friends", parameters: ["fields": "data"], HTTPMethod: "GET")
-        
-        _ = FBSDKGraphRequestConnection()
-        
-        s.startWithCompletionHandler({ connection, result, error in
-            if error != nil {
-                print(error)
-                return
-            }
-            
-            print(result)
-        })
-        // Do any additional setup after loading the view.
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
