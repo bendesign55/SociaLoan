@@ -287,7 +287,7 @@
                                         <rect key="frame" x="0.0" y="28" width="560" height="269"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yUx-5S-nxI" id="ToC-q9-Len">
-                                            <rect key="frame" x="0.0" y="0.0" width="560" height="269"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="244"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20090529_Great_Wall_8185" translatesAutoresizingMaskIntoConstraints="NO" id="mtM-qj-FeF">
