@@ -174,10 +174,30 @@ SWIFT_CLASS("_TtC9SocioLoan19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UICollectionView;
+
+SWIFT_CLASS("_TtC9SocioLoan28ProfileProjectsTableViewCell")
+@interface ProfileProjectsTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified projectLabel;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified creditRatingCollectionView;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified usersCollectionView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileProjectImageView;
+- (void)awakeFromNib;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified projectDescription;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9SocioLoan21ProfileViewController")
-@interface ProfileViewController : UIViewController
+@interface ProfileViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified projectsTable;
 - (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (NSDictionary<NSString *, id> * _Nullable)convertStringToDictionary:(NSString * _Nonnull)text;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)didReceiveMemoryWarning;
 - (IBAction)logoutFromFacebook:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

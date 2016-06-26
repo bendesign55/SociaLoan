@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C9SocioLoan26ExploreTableViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 - "numberOfSectionsInTableView"
 - "tableView"
 - "tableView"
 depends-top-level:
-- !private "StringLiteralType"
-- "UITableViewCell"
-- "Int"
+- !private "FBSDKGraphRequestConnection"
 - "ExploreTableViewController"
 - !private "!="
+- "Int"
+- !private "FBSDKGraphRequest"
+- !private "StringLiteralType"
+- "UITableViewCell"
 - !private "ExploreTableViewCell"
-- !private "FBSDKGraphRequestConnection"
-- "NSIndexPath"
 - "UITableViewController"
 - !private "Dictionary"
+- "NSIndexPath"
 - !private "print"
 - "UITableView"
-- !private "FBSDKGraphRequest"
 depends-member:
 - !private ["Ps9AnyObject", "FBSDKGraphRequest"]
 - !private ["Ps9AnyObject", "FBSDKGraphRequestConnection"]

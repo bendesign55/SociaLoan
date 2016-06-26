@@ -1,0 +1,324 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileProjectsTableViewCell"
+provides-nominal:
+- "C9SocioLoan28ProfileProjectsTableViewCell"
+provides-member:
+- ["C9SocioLoan28ProfileProjectsTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "usersCollectionView"
+- "setSelected"
+- "projectLabel"
+- "projectDescription"
+- "creditRatingCollectionView"
+- "profileProjectImageView"
+depends-top-level:
+- "UITableViewCell"
+- "UILabel"
+- "ProfileProjectsTableViewCell"
+- "Bool"
+- "UICollectionView"
+- "UITextView"
+- "UIImageView"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "creditRatingCollectionView"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "profileProjectImageView"]
+- ["Ps9AnyObject", "projectDescription"]
+- ["Ps9AnyObject", "projectLabel"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "usersCollectionView"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "creditRatingCollectionView"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "profileProjectImageView"]
+- ["Ps11CVarArgType", "projectDescription"]
+- ["Ps11CVarArgType", "projectLabel"]
+- ["Ps11CVarArgType", "setSelected"]
+- ["Ps11CVarArgType", "usersCollectionView"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "creditRatingCollectionView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "profileProjectImageView"]
+- ["Ps28CustomDebugStringConvertible", "projectDescription"]
+- ["Ps28CustomDebugStringConvertible", "projectLabel"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "usersCollectionView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "creditRatingCollectionView"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "profileProjectImageView"]
+- ["Ps23CustomStringConvertible", "projectDescription"]
+- ["Ps23CustomStringConvertible", "projectLabel"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "usersCollectionView"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "creditRatingCollectionView"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "profileProjectImageView"]
+- ["Ps9Equatable", "projectDescription"]
+- ["Ps9Equatable", "projectLabel"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "usersCollectionView"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "creditRatingCollectionView"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "profileProjectImageView"]
+- ["Ps8Hashable", "projectDescription"]
+- ["Ps8Hashable", "projectLabel"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "usersCollectionView"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "creditRatingCollectionView"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "profileProjectImageView"]
+- ["PSo8NSCoding", "projectDescription"]
+- ["PSo8NSCoding", "projectLabel"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "usersCollectionView"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UICollectionView"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "creditRatingCollectionView"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "profileProjectImageView"]
+- ["CSo8NSObject", "projectDescription"]
+- ["CSo8NSObject", "projectLabel"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "usersCollectionView"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "creditRatingCollectionView"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "profileProjectImageView"]
+- ["PSo16NSObjectProtocol", "projectDescription"]
+- ["PSo16NSObjectProtocol", "projectLabel"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "usersCollectionView"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "Bool"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "UICollectionView"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "UIImageView"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "UILabel"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "UITextView"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "awakeFromNib"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "creditRatingCollectionView"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "deinit"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "init"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "profileProjectImageView"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "projectDescription"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "projectLabel"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "setSelected"]
+- ["C9SocioLoan28ProfileProjectsTableViewCell", "usersCollectionView"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "creditRatingCollectionView"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "profileProjectImageView"]
+- ["PSo29UIAccessibilityIdentification", "projectDescription"]
+- ["PSo29UIAccessibilityIdentification", "projectLabel"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "usersCollectionView"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "creditRatingCollectionView"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "profileProjectImageView"]
+- ["PSo12UIAppearance", "projectDescription"]
+- ["PSo12UIAppearance", "projectLabel"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "usersCollectionView"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "creditRatingCollectionView"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "profileProjectImageView"]
+- ["PSo21UIAppearanceContainer", "projectDescription"]
+- ["PSo21UIAppearanceContainer", "projectLabel"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "usersCollectionView"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "creditRatingCollectionView"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "profileProjectImageView"]
+- ["PSo17UICoordinateSpace", "projectDescription"]
+- ["PSo17UICoordinateSpace", "projectLabel"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "usersCollectionView"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "creditRatingCollectionView"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "profileProjectImageView"]
+- ["PSo13UIDynamicItem", "projectDescription"]
+- ["PSo13UIDynamicItem", "projectLabel"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "usersCollectionView"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "creditRatingCollectionView"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "profileProjectImageView"]
+- ["PSo18UIFocusEnvironment", "projectDescription"]
+- ["PSo18UIFocusEnvironment", "projectLabel"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "usersCollectionView"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "creditRatingCollectionView"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "profileProjectImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "projectDescription"]
+- ["PSo27UIGestureRecognizerDelegate", "projectLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "usersCollectionView"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UICollectionView"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "creditRatingCollectionView"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "profileProjectImageView"]
+- ["CSo11UIResponder", "projectDescription"]
+- ["CSo11UIResponder", "projectLabel"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "usersCollectionView"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UICollectionView"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITextView"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "creditRatingCollectionView"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "profileProjectImageView"]
+- ["CSo15UITableViewCell", "projectDescription"]
+- ["CSo15UITableViewCell", "projectLabel"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "usersCollectionView"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "creditRatingCollectionView"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "profileProjectImageView"]
+- ["PSo18UITraitEnvironment", "projectDescription"]
+- ["PSo18UITraitEnvironment", "projectLabel"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "usersCollectionView"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UICollectionView"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITextView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "creditRatingCollectionView"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "profileProjectImageView"]
+- ["CSo6UIView", "projectDescription"]
+- ["CSo6UIView", "projectLabel"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "usersCollectionView"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "creditRatingCollectionView"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "profileProjectImageView"]
+- ["Ps12_Reflectable", "projectDescription"]
+- ["Ps12_Reflectable", "projectLabel"]
+- ["Ps12_Reflectable", "setSelected"]
+- ["Ps12_Reflectable", "usersCollectionView"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C9SocioLoan28ProfileProjectsTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFURL.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFTask.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Headers/Bolts.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/Bolts.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/benormos/Documents/iOS development/Swift/SocioLoan/FacebookSDKs-iOS-4/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "88c8fa73fef24080cb52a2266c8ddd1c"

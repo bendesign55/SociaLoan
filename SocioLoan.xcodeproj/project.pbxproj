@@ -15,6 +15,7 @@
 		A8AE7F391D1E95C800497E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE7F371D1E95C800497E52 /* LaunchScreen.storyboard */; };
 		A8AE7F441D1E95C800497E52 /* SocioLoanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F431D1E95C800497E52 /* SocioLoanTests.swift */; };
 		A8AE7F4F1D1E95C800497E52 /* SocioLoanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE7F4E1D1E95C800497E52 /* SocioLoanUITests.swift */; };
+		A8E5A2B11D1F330F00144E71 /* ProfileProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E5A2B01D1F330F00144E71 /* ProfileProjectsTableViewCell.swift */; };
 		A8FD10FB1D1EADF7005760F4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD10F81D1EADF7005760F4 /* FBSDKCoreKit.framework */; };
 		A8FD10FC1D1EADF7005760F4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD10F91D1EADF7005760F4 /* FBSDKLoginKit.framework */; };
 		A8FD10FD1D1EADF7005760F4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD10FA1D1EADF7005760F4 /* FBSDKShareKit.framework */; };
@@ -55,6 +56,7 @@
 		A8AE7F4A1D1E95C800497E52 /* SocioLoanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocioLoanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AE7F4E1D1E95C800497E52 /* SocioLoanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocioLoanUITests.swift; sourceTree = "<group>"; };
 		A8AE7F501D1E95C800497E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E5A2B01D1F330F00144E71 /* ProfileProjectsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileProjectsTableViewCell.swift; sourceTree = "<group>"; };
 		A8FD10F81D1EADF7005760F4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		A8FD10F91D1EADF7005760F4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		A8FD10FA1D1EADF7005760F4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				A8AE7F2E1D1E95C800497E52 /* AddProjectViewController.swift */,
 				A8AE7F301D1E95C800497E52 /* ProfileViewController.swift */,
 				A8AE7F321D1E95C800497E52 /* Main.storyboard */,
+				A8E5A2B01D1F330F00144E71 /* ProfileProjectsTableViewCell.swift */,
 				A8FD11001D1ED10C005760F4 /* LoginViewController.swift */,
 				A8FD10FE1D1EC5A4005760F4 /* ExploreTableViewController.swift */,
 				A8FD11021D1EEF02005760F4 /* ExploreTableViewCell.swift */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FD10FF1D1EC5A4005760F4 /* ExploreTableViewController.swift in Sources */,
+				A8E5A2B11D1F330F00144E71 /* ProfileProjectsTableViewCell.swift in Sources */,
 				A8AE7F311D1E95C800497E52 /* ProfileViewController.swift in Sources */,
 				A8AE7F2D1D1E95C800497E52 /* AppDelegate.swift in Sources */,
 				A8FD11031D1EEF02005760F4 /* ExploreTableViewCell.swift in Sources */,
